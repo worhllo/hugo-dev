@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Test on Watch Your Back</title>
-        <link>https://worhllo.github.io/hugo-dev/categories/test/</link>
-        <description>Recent content in Test on Watch Your Back</description>
+        <title>Posts on Watch Your Back</title>
+        <link>https://worhllo.github.io/hugo-dev/post/</link>
+        <description>Recent content in Posts on Watch Your Back</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Watch Your Back</copyright>
-        <lastBuildDate>Tue, 05 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://worhllo.github.io/hugo-dev/categories/test/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 11 Nov 2024 00:40:48 +0800</lastBuildDate><atom:link href="https://worhllo.github.io/hugo-dev/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Markdown语法</title>
+        <link>https://worhllo.github.io/hugo-dev/p/markdown%E8%AF%AD%E6%B3%95/</link>
+        <pubDate>Mon, 11 Nov 2024 00:40:48 +0800</pubDate>
+        
+        <guid>https://worhllo.github.io/hugo-dev/p/markdown%E8%AF%AD%E6%B3%95/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Emoji Support</title>
         <link>https://worhllo.github.io/hugo-dev/p/emoji-support/</link>
         <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>

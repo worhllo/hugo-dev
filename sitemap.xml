@@ -3,7 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://worhllo.github.io/hugo-dev/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-11T00:40:48+08:00</lastmod>
+  </url><url>
+    <loc>https://worhllo.github.io/hugo-dev/p/markdown%E8%AF%AD%E6%B3%95/</loc>
+    <lastmod>2024-11-11T00:40:48+08:00</lastmod>
+  </url><url>
+    <loc>https://worhllo.github.io/hugo-dev/post/</loc>
+    <lastmod>2024-11-11T00:40:48+08:00</lastmod>
   </url><url>
     <loc>https://worhllo.github.io/hugo-dev/page/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
@@ -12,10 +18,19 @@
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://worhllo.github.io/hugo-dev/categories/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://worhllo.github.io/hugo-dev/tags/emoji/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://worhllo.github.io/hugo-dev/p/emoji-support/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://worhllo.github.io/hugo-dev/tags/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://worhllo.github.io/hugo-dev/categories/test/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://worhllo.github.io/hugo-dev/%E5%85%B3%E4%BA%8E/</loc>
   </url><url>
