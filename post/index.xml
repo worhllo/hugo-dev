@@ -13,7 +13,202 @@
         <pubDate>Mon, 11 Nov 2024 00:40:48 +0800</pubDate>
         
         <guid>https://worhllo.github.io/hugo-dev/p/markdown%E8%AF%AD%E6%B3%95/</guid>
-        <description></description>
+        <description>&lt;p&gt;[TOC]&lt;/p&gt;
+&lt;h1 id=&#34;markdown语法介绍&#34;&gt;Markdown语法介绍
+&lt;/h1&gt;&lt;h2 id=&#34;一标题&#34;&gt;一、标题
+&lt;/h2&gt;&lt;h3 id=&#34;三号&#34;&gt;三号
+&lt;/h3&gt;&lt;h4 id=&#34;四号&#34;&gt;四号
+&lt;/h4&gt;&lt;h5 id=&#34;五号标题&#34;&gt;五号标题
+&lt;/h5&gt;&lt;h6 id=&#34;六号标题最低&#34;&gt;六号标题【最低】
+&lt;/h6&gt;&lt;h2 id=&#34;二分割线&#34;&gt;二、分割线
+&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;*号分割线
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;pre&gt;&lt;code&gt;-分割线
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;三粗体斜体&#34;&gt;三、粗体斜体
+&lt;/h2&gt;&lt;p&gt;&lt;em&gt;斜体&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;粗体&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;删除线&lt;/del&gt;&lt;/p&gt;
+&lt;h2 id=&#34;四超链接和图片&#34;&gt;四、超链接和图片
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.baidu.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;超链接,方法1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.baidu.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;超链接,方法2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://img2.artron.net/artist/A0261635/brt026163505145.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;图片显示的文字&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;五无序列表&#34;&gt;五、无序列表
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;a
+&lt;ul&gt;
+&lt;li&gt;b&lt;/li&gt;
+&lt;li&gt;b
+&lt;ul&gt;
+&lt;li&gt;C
+&lt;ul&gt;
+&lt;li&gt;V&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;B&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;六有序列表&#34;&gt;六、有序列表
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;a&lt;/li&gt;
+&lt;li&gt;b
+&lt;ol&gt;
+&lt;li&gt;c&lt;/li&gt;
+&lt;li&gt;c&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;七文字引用&#34;&gt;七、文字引用
+&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;使用 &amp;gt; 表示，可以有多个 &amp;gt; 表示层级更深
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;第一层&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;第二层
+这样跳不下去&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;还可更深&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这样就跳出去了&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;八行内代码&#34;&gt;八、行内代码
+&lt;/h2&gt;&lt;p&gt;其实上边已经用过很多次，即使用 ` 表示&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;这是行内代码 中间可以换行&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;九代码块&#34;&gt;九、代码块
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;```&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;代码段&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;```&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;os&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;十表格&#34;&gt;十、表格
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;商品name&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;price&lt;/th&gt;
+          &lt;th&gt;num&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;靠左&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;靠右&lt;/td&gt;
+          &lt;td&gt;3&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;3&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;4&lt;/td&gt;
+          &lt;td&gt;2&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;十一流程图&#34;&gt;十一、流程图
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;解释一下这个例子：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;mermaid&lt;/code&gt;是Mermaid语言的标记。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;graph TD;&lt;/code&gt;指定了图的类型和方向，这里是从上到下（Top Down）的有向图（Directed Graph）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;A--&amp;gt;B;&lt;/code&gt;和&lt;code&gt;A--&amp;gt;C;&lt;/code&gt;表示两个箭头从A出发分别指向B和C。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;B--&amp;gt;D;&lt;/code&gt;和&lt;code&gt;C--&amp;gt;D;&lt;/code&gt;表示两个箭头从B和C出发分别指向D。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;mermaid
+graph TD
+A(工业用地效率)&amp;ndash;&amp;gt;B1(土地利用强度)
+A&amp;ndash;&amp;gt;B2(土地经济效益)
+B1&amp;ndash;&amp;gt;C1(容积率)
+B1&amp;ndash;&amp;gt;C2(建筑系数)
+B1&amp;ndash;&amp;gt;C3(亩均固定资本投入)
+B2&amp;ndash;&amp;gt;D1(亩均工业产值)
+B2&amp;ndash;&amp;gt;D2(亩均税收)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;高级语法&#34;&gt;高级语法
+&lt;/h1&gt;&lt;h2 id=&#34;数学公式&#34;&gt;数学公式
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;$\ce{Hg^2+ -&amp;gt;[I-] HgI2 -&amp;gt;[I-] [Hg^{II}I4]^2-}$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$H(D_2) = -\left(\frac{2}{4}\log_2 \frac{2}{4} + \frac{2}{4}\log_2 \frac{2}{4}\right) = 1$&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  \begin{pmatrix}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  1 &amp;amp; a_1 &amp;amp; a_1^2 &amp;amp; \cdots &amp;amp; a_1^n \\
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  1 &amp;amp; a_2 &amp;amp; a_2^2 &amp;amp; \cdots &amp;amp; a_2^n \\
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  \vdots &amp;amp; \vdots &amp;amp; \vdots &amp;amp; \ddots &amp;amp; \vdots \\
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  1 &amp;amp; a_m &amp;amp; a_m^2 &amp;amp; \cdots &amp;amp; a_m^n \\
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  \end{pmatrix}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;目录&#34;&gt;目录
+&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;@[toc] 或 [toc]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;html原生语句&#34;&gt;HTML原生语句
+&lt;/h2&gt;&lt;p&gt;&lt;span style=&#34;display:block; text-align:right; color:orangered;&#34;&gt;橙色居右&lt;/span&gt; &lt;span style=&#34;display:block; text-align:center; color:orangered;&#34;&gt;橙色居中&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font face=&#34;黑体&#34;&gt;我是黑体字&lt;/font&gt; &lt;font face=&#34;微软雅黑&#34;&gt;我是微软雅黑&lt;/font&gt; &lt;font face=&#34;STCAIYUN&#34;&gt;我是华文彩云&lt;/font&gt; &lt;font color=&#34;#0099ff&#34; size=&#34;7&#34; face=&#34;黑体&#34;&gt;color=#0099ff size=72 face=&amp;ldquo;黑体&amp;rdquo;&lt;/font&gt; &lt;font color=&#34;#00ffff&#34; size=&#34;72&#34;&gt;color=#00ffff&lt;/font&gt; &lt;font color=&#34;gray&#34; size=&#34;72&#34;&gt;color=gray&lt;/font&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;颜色的英文单词：&lt;/p&gt;
+&lt;p&gt;red（赤）
+orange（橙）
+yellow（黄）
+green（绿）
+cyan（青）
+blue（蓝）
+purple（紫）
+字体的英文单词：&lt;/p&gt;
+&lt;p&gt;rm（罗马字体）
+it （意大利字体）
+bf（黑体）
+sl （斜体）
+sf （等线体）
+sc （小体大写字母）
+tt （打字机字体）
+mit （数学斜体）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;转义&#34;&gt;转义
+&lt;/h2&gt;&lt;p&gt;在 Markdown 编辑器里面使用了很多特殊符号来表示特定的意义，该特殊符号将不再显示，这个时候就需要转义字符——反斜杠，如下：&lt;/p&gt;
+&lt;p&gt;**转义特殊符号正常显示**&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;无转义特殊符号无法正常显示&lt;/strong&gt;&lt;/p&gt;
+</description>
         </item>
         <item>
         <title>Emoji Support</title>
