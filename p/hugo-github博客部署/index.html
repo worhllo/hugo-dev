@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="环境准备 下载Hugo 网址：Hugo官网\nGithub地址:gohugoio/hugo\n选择合适的版本下载。 下载git 点击Git官网\n点击 Download for Windows 按照指引安装即可。\n搭建博客 创建Blog 解压hugo_extended_0.134.2_windows-amd64.zip文件，在dev文件夹下进入cmd命令窗口**（全选文件路径，输入cmd后回车），输入hugo new site xxxx创建文件（xxx任意命名，此处以dev为例），代码输入无误之后就会生成一个你命名的文件夹。（注意不要急着关闭cmd命令窗口，后面接着要用到）**\n再次打开cmd命令窗口，输入cd dev\n将上图页面中的hugo.exe文件复制到dev文件内。\n在cmd命令行中输入hugo server -D，运行成功后会出现以下界面：\n![hugo server -D.png](https://imgbed.worhllo.us.kg/file/1731303348891_hugo server -D.png)\n此时，在浏览器中输入命令窗口中出现的链接，即http://localhost:1313/，如果操作无误，则会提示Page Not Found\n下载主题 再次进入Hugo官网。\n点击Themes选择一款适合的主题，这里以Stack这款主题为例。\n点击Download，下滑至Assets界面，并选择适当的版本，将源码下载下来。\n将文件解压，将其命名为hugo-theme-stack，移动至dev\\themes文件下，接着打开exampleSite文件夹，复制其中的 Content 和 hugo.yaml 复制到主文件夹dev中，然后删掉hugo.toml。\n![2024-11-11 13_49_16-dev.png](https://imgbed.worhllo.us.kg/file/1731304164618_2024-11-11 13_49_16-dev.png)\n再次打开cmd命令窗口，输入hugo server -D，打开浏览器输入http://localhost:1313/，若操作无误则主题会正常显示，并出现出相关范例文章。\nGithub部署 常规部署 前提条件：拥有一个属于自己的github账号，没有请自行注册。\n">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="环境准备 下载Hugo 网址：Hugo官网\nGithub地址:gohugoio/hugo\n选择合适的版本下载。 下载git 点击Git官网\n点击 Download for Windows 按照指引安装即可。\n搭建博客 创建Blog 解压hugo_extended_0.134.2_windows-amd64.zip文件，在dev文件夹下进入cmd命令窗口（全选文件路径，输入cmd后回车），输入hugo new site xxxx创建文件（xxx任意命名，此处以dev为例），代码输入无误之后就会生成一个你命名的文件夹。（注意不要急着关闭cmd命令窗口，后面接着要用到）\n再次打开cmd命令窗口，输入cd dev\n将上图页面中的hugo.exe文件复制到dev文件内。\n在cmd命令行中输入hugo server -D，运行成功后会出现以下界面：\n此时，在浏览器中输入命令窗口中出现的链接，即http://localhost:1313/，如果操作无误，则会提示Page Not Found\n下载主题 再次进入Hugo官网。\n点击Themes选择一款适合的主题，这里以Stack这款主题为例。\n点击Download，下滑至Assets界面，并选择适当的版本，将源码下载下来。\n将文件解压，将其命名为hugo-theme-stack，移动至dev\\themes文件下，接着打开exampleSite文件夹，复制其中的 Content 和 hugo.yaml 复制到主文件夹dev中，然后删掉hugo.toml。\n再次打开cmd命令窗口，输入hugo server -D，打开浏览器输入http://localhost:1313/，若操作无误则主题会正常显示，并出现出相关范例文章。\nGithub部署 常规部署 前提条件：拥有一个属于自己的github账号，没有请自行注册。\n新建仓库，命名任意，但是最好命名为xxx(你的gitub用户名).github.io，（后续生成的链接短，访问博客很方便）选择Public，最后点击Creat respository\n进入到刚创建好的仓库后，前往setting -&gt; Pages -&gt; Branch选择main分支，点击Save，等待一会儿，就会出现https://{github用户名}.github.io 的地址，该地址即为博客的访问地址。\n">
 <title>Hugo&#43;Github博客部署</title>
 
 <link rel='canonical' href='https://worhllo.github.io/hugo-dev/p/hugo-github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/'>
 
 <link rel="stylesheet" href="/hugo-dev/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="Hugo+Github博客部署">
-<meta property='og:description' content="环境准备 下载Hugo 网址：Hugo官网\nGithub地址:gohugoio/hugo\n选择合适的版本下载。 下载git 点击Git官网\n点击 Download for Windows 按照指引安装即可。\n搭建博客 创建Blog 解压hugo_extended_0.134.2_windows-amd64.zip文件，在dev文件夹下进入cmd命令窗口**（全选文件路径，输入cmd后回车），输入hugo new site xxxx创建文件（xxx任意命名，此处以dev为例），代码输入无误之后就会生成一个你命名的文件夹。（注意不要急着关闭cmd命令窗口，后面接着要用到）**\n再次打开cmd命令窗口，输入cd dev\n将上图页面中的hugo.exe文件复制到dev文件内。\n在cmd命令行中输入hugo server -D，运行成功后会出现以下界面：\n![hugo server -D.png](https://imgbed.worhllo.us.kg/file/1731303348891_hugo server -D.png)\n此时，在浏览器中输入命令窗口中出现的链接，即http://localhost:1313/，如果操作无误，则会提示Page Not Found\n下载主题 再次进入Hugo官网。\n点击Themes选择一款适合的主题，这里以Stack这款主题为例。\n点击Download，下滑至Assets界面，并选择适当的版本，将源码下载下来。\n将文件解压，将其命名为hugo-theme-stack，移动至dev\\themes文件下，接着打开exampleSite文件夹，复制其中的 Content 和 hugo.yaml 复制到主文件夹dev中，然后删掉hugo.toml。\n![2024-11-11 13_49_16-dev.png](https://imgbed.worhllo.us.kg/file/1731304164618_2024-11-11 13_49_16-dev.png)\n再次打开cmd命令窗口，输入hugo server -D，打开浏览器输入http://localhost:1313/，若操作无误则主题会正常显示，并出现出相关范例文章。\nGithub部署 常规部署 前提条件：拥有一个属于自己的github账号，没有请自行注册。\n">
+<meta property='og:description' content="环境准备 下载Hugo 网址：Hugo官网\nGithub地址:gohugoio/hugo\n选择合适的版本下载。 下载git 点击Git官网\n点击 Download for Windows 按照指引安装即可。\n搭建博客 创建Blog 解压hugo_extended_0.134.2_windows-amd64.zip文件，在dev文件夹下进入cmd命令窗口（全选文件路径，输入cmd后回车），输入hugo new site xxxx创建文件（xxx任意命名，此处以dev为例），代码输入无误之后就会生成一个你命名的文件夹。（注意不要急着关闭cmd命令窗口，后面接着要用到）\n再次打开cmd命令窗口，输入cd dev\n将上图页面中的hugo.exe文件复制到dev文件内。\n在cmd命令行中输入hugo server -D，运行成功后会出现以下界面：\n此时，在浏览器中输入命令窗口中出现的链接，即http://localhost:1313/，如果操作无误，则会提示Page Not Found\n下载主题 再次进入Hugo官网。\n点击Themes选择一款适合的主题，这里以Stack这款主题为例。\n点击Download，下滑至Assets界面，并选择适当的版本，将源码下载下来。\n将文件解压，将其命名为hugo-theme-stack，移动至dev\\themes文件下，接着打开exampleSite文件夹，复制其中的 Content 和 hugo.yaml 复制到主文件夹dev中，然后删掉hugo.toml。\n再次打开cmd命令窗口，输入hugo server -D，打开浏览器输入http://localhost:1313/，若操作无误则主题会正常显示，并出现出相关范例文章。\nGithub部署 常规部署 前提条件：拥有一个属于自己的github账号，没有请自行注册。\n新建仓库，命名任意，但是最好命名为xxx(你的gitub用户名).github.io，（后续生成的链接短，访问博客很方便）选择Public，最后点击Creat respository\n进入到刚创建好的仓库后，前往setting -&gt; Pages -&gt; Branch选择main分支，点击Save，等待一会儿，就会出现https://{github用户名}.github.io 的地址，该地址即为博客的访问地址。\n">
 <meta property='og:url' content='https://worhllo.github.io/hugo-dev/p/hugo-github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/'>
 <meta property='og:site_name' content='Watch Your Back'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='博客' /><meta property='article:published_time' content='2024-11-11T13:12:41&#43;08:00'/><meta property='article:modified_time' content='2024-11-11T13:12:41&#43;08:00'/><meta property='og:image' content='https://worhllo.github.io/hugo-dev/Featured%20image%20of%20post%20%E3%80%90%E6%95%99%E7%A8%8B%E3%80%91Hugo&#43;Github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='博客' /><meta property='article:published_time' content='2024-11-11T13:12:41&#43;08:00'/><meta property='article:modified_time' content='2024-11-11T13:12:41&#43;08:00'/><meta property='og:image' content='https://worhllo.github.io/hugo-dev/p/hugo-github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/Featured%20image%20of%20post%20%E3%80%90%E6%95%99%E7%A8%8B%E3%80%91Hugo&#43;Github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2.png' />
 <meta name="twitter:title" content="Hugo+Github博客部署">
-<meta name="twitter:description" content="环境准备 下载Hugo 网址：Hugo官网\nGithub地址:gohugoio/hugo\n选择合适的版本下载。 下载git 点击Git官网\n点击 Download for Windows 按照指引安装即可。\n搭建博客 创建Blog 解压hugo_extended_0.134.2_windows-amd64.zip文件，在dev文件夹下进入cmd命令窗口**（全选文件路径，输入cmd后回车），输入hugo new site xxxx创建文件（xxx任意命名，此处以dev为例），代码输入无误之后就会生成一个你命名的文件夹。（注意不要急着关闭cmd命令窗口，后面接着要用到）**\n再次打开cmd命令窗口，输入cd dev\n将上图页面中的hugo.exe文件复制到dev文件内。\n在cmd命令行中输入hugo server -D，运行成功后会出现以下界面：\n![hugo server -D.png](https://imgbed.worhllo.us.kg/file/1731303348891_hugo server -D.png)\n此时，在浏览器中输入命令窗口中出现的链接，即http://localhost:1313/，如果操作无误，则会提示Page Not Found\n下载主题 再次进入Hugo官网。\n点击Themes选择一款适合的主题，这里以Stack这款主题为例。\n点击Download，下滑至Assets界面，并选择适当的版本，将源码下载下来。\n将文件解压，将其命名为hugo-theme-stack，移动至dev\\themes文件下，接着打开exampleSite文件夹，复制其中的 Content 和 hugo.yaml 复制到主文件夹dev中，然后删掉hugo.toml。\n![2024-11-11 13_49_16-dev.png](https://imgbed.worhllo.us.kg/file/1731304164618_2024-11-11 13_49_16-dev.png)\n再次打开cmd命令窗口，输入hugo server -D，打开浏览器输入http://localhost:1313/，若操作无误则主题会正常显示，并出现出相关范例文章。\nGithub部署 常规部署 前提条件：拥有一个属于自己的github账号，没有请自行注册。\n"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://worhllo.github.io/hugo-dev/Featured%20image%20of%20post%20%E3%80%90%E6%95%99%E7%A8%8B%E3%80%91Hugo&#43;Github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2.png' />
+<meta name="twitter:description" content="环境准备 下载Hugo 网址：Hugo官网\nGithub地址:gohugoio/hugo\n选择合适的版本下载。 下载git 点击Git官网\n点击 Download for Windows 按照指引安装即可。\n搭建博客 创建Blog 解压hugo_extended_0.134.2_windows-amd64.zip文件，在dev文件夹下进入cmd命令窗口（全选文件路径，输入cmd后回车），输入hugo new site xxxx创建文件（xxx任意命名，此处以dev为例），代码输入无误之后就会生成一个你命名的文件夹。（注意不要急着关闭cmd命令窗口，后面接着要用到）\n再次打开cmd命令窗口，输入cd dev\n将上图页面中的hugo.exe文件复制到dev文件内。\n在cmd命令行中输入hugo server -D，运行成功后会出现以下界面：\n此时，在浏览器中输入命令窗口中出现的链接，即http://localhost:1313/，如果操作无误，则会提示Page Not Found\n下载主题 再次进入Hugo官网。\n点击Themes选择一款适合的主题，这里以Stack这款主题为例。\n点击Download，下滑至Assets界面，并选择适当的版本，将源码下载下来。\n将文件解压，将其命名为hugo-theme-stack，移动至dev\\themes文件下，接着打开exampleSite文件夹，复制其中的 Content 和 hugo.yaml 复制到主文件夹dev中，然后删掉hugo.toml。\n再次打开cmd命令窗口，输入hugo server -D，打开浏览器输入http://localhost:1313/，若操作无误则主题会正常显示，并出现出相关范例文章。\nGithub部署 常规部署 前提条件：拥有一个属于自己的github账号，没有请自行注册。\n新建仓库，命名任意，但是最好命名为xxx(你的gitub用户名).github.io，（后续生成的链接短，访问博客很方便）选择Public，最后点击Creat respository\n进入到刚创建好的仓库后，前往setting -&gt; Pages -&gt; Branch选择main分支，点击Save，等待一会儿，就会出现https://{github用户名}.github.io 的地址，该地址即为博客的访问地址。\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://worhllo.github.io/hugo-dev/p/hugo-github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/Featured%20image%20of%20post%20%E3%80%90%E6%95%99%E7%A8%8B%E3%80%91Hugo&#43;Github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2.png' />
     </head>
     <body class="
     article-page
@@ -284,6 +284,7 @@
         <li><a href="#github-action自动部署">Github Action自动部署</a></li>
       </ol>
     </li>
+    <li><a href="#后续新文章写作与上传">后续新文章写作与上传</a></li>
   </ol>
 </nav>
         </div>
@@ -299,8 +300,12 @@
     <header class="article-header">
         <div class="article-image">
             <a href="/hugo-dev/p/hugo-github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/">
-                
-                    <img src="/hugo-dev/Featured%20image%20of%20post%20%e3%80%90%e6%95%99%e7%a8%8b%e3%80%91Hugo&#43;Github%e5%8d%9a%e5%ae%a2%e9%83%a8%e7%bd%b2.png" loading="lazy" alt="Featured image of post Hugo&#43;Github博客部署" />
+                <img src="/hugo-dev/p/hugo-github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/Featured%20image%20of%20post%20%E3%80%90%E6%95%99%E7%A8%8B%E3%80%91Hugo&#43;Github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2_hu17806222842683243002.png"
+                        srcset="/hugo-dev/p/hugo-github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/Featured%20image%20of%20post%20%E3%80%90%E6%95%99%E7%A8%8B%E3%80%91Hugo&#43;Github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2_hu17806222842683243002.png 800w, /hugo-dev/p/hugo-github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/Featured%20image%20of%20post%20%E3%80%90%E6%95%99%E7%A8%8B%E3%80%91Hugo&#43;Github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2_hu1620494106971946345.png 1600w"
+                        width="800" 
+                        height="363" 
+                        loading="lazy"
+                        alt="Featured image of post Hugo&#43;Github博客部署" />
                 
             </a>
         </div>
@@ -421,7 +426,7 @@
 </h2><h3 id="创建blog">创建Blog
 </h3><ul>
 <li>
-<p>解压<code>hugo_extended_0.134.2_windows-amd64.zip</code>文件，在<code>dev</code>文件夹下进入cmd命令窗口**（全选文件路径，输入cmd后回车）<strong>，输入<code>hugo new site xxxx</code>创建文件（xxx任意命名，此处以dev为例），代码输入无误之后就会生成一个你命名的文件夹。</strong>（注意不要急着关闭cmd命令窗口，后面接着要用到）**</p>
+<p>解压<code>hugo_extended_0.134.2_windows-amd64.zip</code>文件，在<code>dev</code>文件夹下进入cmd命令窗口（<strong>全选文件路径，输入cmd后回车</strong>），输入<code>hugo new site xxxx</code>创建文件（<strong>xxx任意命名，此处以dev为例</strong>），代码输入无误之后就会生成一个你命名的文件夹。（<strong>注意不要急着关闭cmd命令窗口，后面接着要用到</strong>）</p>
 <p><img src="https://imgbed.worhllo.us.kg/file/1731306688619_555.png"
 	
 	
@@ -461,8 +466,16 @@
 </li>
 <li>
 <p>在cmd命令行中输入<code>hugo server -D</code>，运行成功后会出现以下界面：</p>
-<p>![hugo server -D.png](<a class="link" href="https://imgbed.worhllo.us.kg/file/1731303348891_hugo"  target="_blank" rel="noopener"
-    >https://imgbed.worhllo.us.kg/file/1731303348891_hugo</a> server -D.png)</p>
+<p><img src="https://imgbed.worhllo.us.kg/file/1731310888077_hugo.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="hugo.png"
+	
+	
+></p>
 </li>
 <li>
 <p>此时，在浏览器中输入命令窗口中出现的链接，即<code>http://localhost:1313/</code>，如果操作无误，则会提示<code>Page Not Found</code></p>
@@ -502,8 +515,16 @@
 </li>
 <li>
 <p>将文件解压，将其命名为<code>hugo-theme-stack</code>，移动至<code>dev\themes</code>文件下，接着打开<code>exampleSite</code>文件夹，复制其中的<code> Content</code> 和 <code>hugo.yaml</code> 复制到主文件夹<code>dev</code>中，然后删掉<code>hugo.toml</code>。</p>
-<p>![2024-11-11 13_49_16-dev.png](<a class="link" href="https://imgbed.worhllo.us.kg/file/1731304164618_2024-11-11"  target="_blank" rel="noopener"
-    >https://imgbed.worhllo.us.kg/file/1731304164618_2024-11-11</a> 13_49_16-dev.png)</p>
+<p><img src="https://imgbed.worhllo.us.kg/file/1731310967811_999.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="999.png"
+	
+	
+></p>
 </li>
 <li>
 <p>再次打开cmd命令窗口，输入<code>hugo server -D</code>，打开浏览器输入<code>http://localhost:1313/</code>，若操作无误则主题会正常显示，并出现出相关范例文章。</p>
@@ -526,7 +547,7 @@
 <p>前提条件：拥有一个属于自己的github账号，没有请自行注册。</p>
 </li>
 <li>
-<p>新建仓库，命名任意，但是最好命名为<code>xxx(你的gitub用户名).github.io</code>，**（后续生成的链接短，访问博客很方便）**选择<code>Public</code>，最后点击<code>Creat respository</code></p>
+<p>新建仓库，命名任意，但是最好命名为<code>xxx(你的gitub用户名).github.io</code>，（<strong>后续生成的链接短，访问博客很方便</strong>）选择<code>Public</code>，最后点击<code>Creat respository</code></p>
 <p><img src="https://imgbed.worhllo.us.kg/file/1731304995863_222.png"
 	
 	
@@ -550,11 +571,19 @@
 </li>
 <li>
 <p>进入到刚创建好的仓库后，前往<code>setting -&gt; Pages -&gt; Branch</code>选择main分支，点击<code>Save</code>，等待一会儿，就会出现<code>https://{github用户名}.github.io</code> 的地址，该地址即为博客的访问地址。</p>
-<p>![333 (2).png](<a class="link" href="https://imgbed.worhllo.us.kg/file/1731305539095_333"  target="_blank" rel="noopener"
-    >https://imgbed.worhllo.us.kg/file/1731305539095_333</a> (2).png)</p>
+<p><img src="https://imgbed.worhllo.us.kg/file/1731311033715_1213.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="1213.png"
+	
+	
+></p>
 </li>
 <li>
-<p>此时，原来的cmd命令窗口终于能关掉了，接着，在<code>public</code>文件夹**（跟之前不一样了，注意）<strong>下进入cmd命令窗口</strong>（全选文件路径，输入cmd后回车）**，依次以下命令，操作无误后刷新新建仓库，就会发现文件都上传到github仓库上面了。至此，hugo博客的基本搭建已经结束。</p>
+<p>此时，原来的cmd命令窗口终于能关掉了，接着，在<code>public</code>文件夹（<strong>跟之前不一样了，注意</strong>）下进入cmd命令窗口（<strong>全选文件路径，输入cmd后回车</strong>），依次以下命令，操作无误后刷新新建仓库，就会发现文件都上传到github仓库上面了。至此，hugo博客的基本搭建已经结束。</p>
 <div class="table-wrapper"><table>
   <thead>
       <tr>
@@ -596,7 +625,7 @@
 <p>前往<code>settings -&gt; Developer Settings -&gt; Personal access tokens</code>，创建一个<code>token(classic)</code>。</p>
 </li>
 <li>
-<p>token选择永不过期，并且勾选<strong>repo</strong>和<strong>workflow</strong>选项，最后点击<code>generate</code>，复制生成的token**（只会显示一次，注意保存）**</p>
+<p>token选择永不过期，并且勾选<strong>repo</strong>和<strong>workflow</strong>选项，最后点击<code>generate</code>，复制生成的token（<strong>只会显示一次，注意保存</strong>）</p>
 <p><img src="https://imgbed.worhllo.us.kg/file/1731307583975_202409181729591.png"
 	
 	
@@ -717,90 +746,95 @@
 </div>
 </div></li>
 <li>
-<p>接着在hugo主文件<code>dev</code>中创建<code>.gitignore</code>文件，来避免提交不必要的文件**（不需要<code>hugo.exe，public，resources，.hugo_build.lock</code>）**，文件内容如下</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># 自动生成的文件
-</span></span><span class="line"><span class="cl">public
-</span></span></code></pre></td></tr></table>
-</div>
-</div></li>
+<p>接着在hugo主文件<code>dev</code>中创建<code>.gitignore</code>文件，来避免提交不必要的文件（<strong>不需要<code>hugo.exe，public，resources，.hugo_build.lock</code></strong>），文件内容如下</p>
+<p><img src="https://imgbed.worhllo.us.kg/file/1731310348318_888.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="888.png"
+	
+	
+></p>
+</li>
+<li>
+<p>在<code>dev</code>文件夹（<strong>又不一样了，注意</strong>）下进入cmd命令窗口（<strong>全选文件路径，输入cmd后回车</strong>），依次输入以下命令，操作无误后刷新，就会发现大部分文件都上传到github仓库上面了（<strong>不必要的文件上一步已经排除掉了</strong>）至此，hugo博客的自动部署也已经结束。</p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>cmd命令</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>git init</code></td>
+      </tr>
+      <tr>
+          <td><code>git add</code> .</td>
+      </tr>
+      <tr>
+          <td><code>git commit -m &quot;first commit&quot;</code></td>
+      </tr>
+      <tr>
+          <td><code>git branch -M main</code></td>
+      </tr>
+      <tr>
+          <td><code>git remote add origin {你的github仓库地址}</code></td>
+      </tr>
+      <tr>
+          <td><code>git push -u origin main</code></td>
+      </tr>
+  </tbody>
+</table></div>
+<p><img src="https://imgbed.worhllo.us.kg/file/1731308860942_777.png"
+	
+	
+	
+	loading="lazy"
+	
+		alt="777.png"
+	
+	
+></p>
+</li>
 </ul>
-<p>resources
-.hugo_build.lock</p>
-<h1 id="hugo命令">hugo命令
-</h1><p>hugo.exe</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
-</span><span class="lnt">27
-</span><span class="lnt">28
-</span><span class="lnt">29
-</span><span class="lnt">30
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-mysql" data-lang="mysql"><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="o">-</span><span class="w"> </span><span class="err">在</span><span class="o">`</span><span class="n">dev</span><span class="o">`</span><span class="err">文件夹</span><span class="o">**</span><span class="err">（又不一样了，注意）</span><span class="o">**</span><span class="err">下进入</span><span class="n">cmd命令窗口</span><span class="o">**</span><span class="err">（全选文件路径，输入</span><span class="n">cmd后回车</span><span class="err">）</span><span class="o">**</span><span class="err">，依次输入以下命令，操作无误后刷新，就会发现大部分文件都上传到</span><span class="n">github仓库上面了</span><span class="o">**</span><span class="err">（不必要的文件上一步已经排除掉了）</span><span class="o">**</span><span class="err">至此，</span><span class="n">hugo博客的自动部署也已经结束</span><span class="err">。</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="o">|</span><span class="w"> </span><span class="n">cmd命令</span><span class="w"> </span><span class="o">|</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="o">|</span><span class="w"> </span><span class="o">----</span><span class="c1">-- |
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="o">|</span><span class="w"> </span><span class="o">`</span><span class="n">git</span><span class="w"> </span><span class="n">init</span><span class="o">`</span><span class="w"> </span><span class="o">|</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="o">|</span><span class="w"> </span><span class="o">`</span><span class="n">git</span><span class="w"> </span><span class="k">add</span><span class="o">`</span><span class="w"> </span><span class="p">.</span><span class="w"> </span><span class="o">|</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="o">|</span><span class="w"> </span><span class="o">`</span><span class="n">git</span><span class="w"> </span><span class="n">commit</span><span class="w"> </span><span class="o">-</span><span class="n">m</span><span class="w"> </span><span class="s2">&#34;first commit&#34;</span><span class="o">`</span><span class="w"> </span><span class="o">|</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="o">|</span><span class="w"> </span><span class="o">`</span><span class="n">git</span><span class="w"> </span><span class="n">branch</span><span class="w"> </span><span class="o">-</span><span class="n">M</span><span class="w"> </span><span class="n">main</span><span class="o">`</span><span class="w"> </span><span class="o">|</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="o">|</span><span class="w"> </span><span class="o">`</span><span class="n">git</span><span class="w"> </span><span class="n">remote</span><span class="w"> </span><span class="k">add</span><span class="w"> </span><span class="n">origin</span><span class="w"> </span><span class="err">{你的</span><span class="n">github仓库地址</span><span class="err">}</span><span class="o">`</span><span class="w"> </span><span class="o">|</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="o">|</span><span class="w"> </span><span class="o">`</span><span class="n">git</span><span class="w"> </span><span class="n">push</span><span class="w"> </span><span class="o">-</span><span class="n">u</span><span class="w"> </span><span class="n">origin</span><span class="w"> </span><span class="n">main</span><span class="o">`</span><span class="w"> </span><span class="o">|</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="o">!</span><span class="p">[</span><span class="mi">777</span><span class="p">.</span><span class="n">png</span><span class="p">](</span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">imgbed</span><span class="p">.</span><span class="n">worhllo</span><span class="p">.</span><span class="n">us</span><span class="p">.</span><span class="n">kg</span><span class="o">/</span><span class="n">file</span><span class="o">/</span><span class="mi">1731308860942</span><span class="n">_777</span><span class="p">.</span><span class="n">png</span><span class="p">)</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">## 后续新文章写作与上传
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="o">-</span><span class="w"> </span><span class="err">后续撰写新文章的话，按</span><span class="o">`</span><span class="err">三步走</span><span class="o">`</span><span class="err">就能实现本地撰写和线上同步</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="mi">1</span><span class="p">.</span><span class="w">  </span><span class="err">在</span><span class="o">`</span><span class="n">dev</span><span class="o">`</span><span class="err">文件夹下进入</span><span class="n">cmd命令窗口</span><span class="o">**</span><span class="err">（全选文件路径，输入</span><span class="n">cmd后回车</span><span class="err">）</span><span class="o">**</span><span class="err">，输入</span><span class="o">`</span><span class="n">hugo</span><span class="w"> </span><span class="n">new</span><span class="w"> </span><span class="n">content</span><span class="w"> </span><span class="n">post</span><span class="o">/</span><span class="n">xxxx</span><span class="o">/</span><span class="k">index</span><span class="p">.</span><span class="n">md</span><span class="o">`**</span><span class="err">（</span><span class="n">xxx名字自定</span><span class="p">)</span><span class="o">**</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="mi">2</span><span class="p">.</span><span class="w"> </span><span class="err">在新创建的文件夹中会有</span><span class="o">`</span><span class="k">index</span><span class="p">.</span><span class="n">md</span><span class="o">`</span><span class="err">文件，在该文件中撰写文章</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="mi">3</span><span class="p">.</span><span class="w"> </span><span class="err">在</span><span class="o">`</span><span class="n">dev</span><span class="o">`</span><span class="err">文件夹下再次进入</span><span class="n">cmd命令窗口</span><span class="o">**</span><span class="err">（全选文件路径，输入</span><span class="n">cmd后回车</span><span class="err">）</span><span class="o">**</span><span class="err">，依次输入以下命令即可</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">   </span><span class="o">|</span><span class="w"> </span><span class="n">cmd命令</span><span class="w">                  </span><span class="o">|</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">   </span><span class="o">|</span><span class="w"> </span><span class="o">----------------------</span><span class="c1">-- |
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="w">   </span><span class="o">|</span><span class="w"> </span><span class="o">`</span><span class="n">git</span><span class="w"> </span><span class="k">add</span><span class="o">`</span><span class="w"> </span><span class="p">.</span><span class="w">              </span><span class="o">|</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">   </span><span class="o">|</span><span class="w"> </span><span class="o">`</span><span class="n">git</span><span class="w"> </span><span class="n">commit</span><span class="w"> </span><span class="o">-</span><span class="n">m</span><span class="w"> </span><span class="s2">&#34;upgate&#34;</span><span class="o">`</span><span class="w"> </span><span class="o">|</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">   </span><span class="o">|</span><span class="w"> </span><span class="o">`</span><span class="n">git</span><span class="w"> </span><span class="n">push</span><span class="o">`</span><span class="w">               </span><span class="o">|</span><span class="w">
-</span></span></span></code></pre></td></tr></table>
-</div>
-</div>
+<h2 id="后续新文章写作与上传">后续新文章写作与上传
+</h2><ul>
+<li>
+<p>后续撰写新文章的话，按<code>三步走</code>就能实现本地撰写和线上同步</p>
+<ol>
+<li>
+<p>在<code>dev</code>文件夹下进入cmd命令窗口（<strong>全选文件路径，输入cmd后回车</strong>），输入<code>hugo new content post/xxxx/index.md</code>（<strong>xxx名字自定</strong>)</p>
+</li>
+<li>
+<p>在新创建的文件夹中会有<code>index.md</code>文件，在该文件中撰写文章</p>
+</li>
+<li>
+<p>在<code>dev</code>文件夹下再次进入cmd命令窗口（<strong>全选文件路径，输入cmd后回车</strong>），依次输入以下命令即可</p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th>cmd命令</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>git add</code> .</td>
+      </tr>
+      <tr>
+          <td><code>git commit -m &quot;upgate&quot;</code></td>
+      </tr>
+      <tr>
+          <td><code>git push</code></td>
+      </tr>
+  </tbody>
+</table></div>
+</li>
+</ol>
+</li>
+</ul>
+
 </section>
 
 
