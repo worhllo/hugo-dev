@@ -460,7 +460,7 @@
           &lt;td&gt;&lt;code&gt;git add&lt;/code&gt; .&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;&lt;code&gt;git commit -m &amp;quot;upgate&amp;quot;&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;git commit -m &amp;quot;update&amp;quot;&lt;/code&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;&lt;code&gt;git push&lt;/code&gt;&lt;/td&gt;
