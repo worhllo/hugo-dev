@@ -5,10 +5,22 @@
     <loc>https://worhllo.github.io/hugo-dev/</loc>
     <lastmod>2024-11-11T00:40:48+08:00</lastmod>
   </url><url>
+    <loc>https://worhllo.github.io/hugo-dev/categories/</loc>
+    <lastmod>2024-11-11T00:40:48+08:00</lastmod>
+  </url><url>
+    <loc>https://worhllo.github.io/hugo-dev/tags/markdown/</loc>
+    <lastmod>2024-11-11T00:40:48+08:00</lastmod>
+  </url><url>
     <loc>https://worhllo.github.io/hugo-dev/p/markdown%E8%AF%AD%E6%B3%95/</loc>
     <lastmod>2024-11-11T00:40:48+08:00</lastmod>
   </url><url>
     <loc>https://worhllo.github.io/hugo-dev/post/</loc>
+    <lastmod>2024-11-11T00:40:48+08:00</lastmod>
+  </url><url>
+    <loc>https://worhllo.github.io/hugo-dev/tags/</loc>
+    <lastmod>2024-11-11T00:40:48+08:00</lastmod>
+  </url><url>
+    <loc>https://worhllo.github.io/hugo-dev/categories/%E4%BB%8B%E7%BB%8D/</loc>
     <lastmod>2024-11-11T00:40:48+08:00</lastmod>
   </url><url>
     <loc>https://worhllo.github.io/hugo-dev/page/</loc>
@@ -17,16 +29,10 @@
     <loc>https://worhllo.github.io/hugo-dev/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://worhllo.github.io/hugo-dev/categories/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://worhllo.github.io/hugo-dev/tags/emoji/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://worhllo.github.io/hugo-dev/p/emoji-support/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://worhllo.github.io/hugo-dev/tags/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://worhllo.github.io/hugo-dev/categories/test/</loc>
