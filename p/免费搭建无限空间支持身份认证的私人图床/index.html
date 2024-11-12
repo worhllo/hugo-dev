@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="环境准备 下载Hugo 网址：Hugo官网\nGithub地址:gohugoio/hugo\n选择合适的版本下载。 下载git 点击Git官网\n点击 Download for Windows 按照指引安装即可。\n搭建博客 创建Blog 解压hugo_extended_0.134.2_windows-amd64.zip文件，在dev文件夹下进入cmd命令窗口（全选文件路径，输入cmd后回车），输入hugo new site xxxx创建文件（xxx任意命名，此处以dev为例），代码输入无误之后就会生成一个你命名的文件夹。（注意不要急着关闭cmd命令窗口，后面接着要用到）\n">
-<title>Hugo&#43;Github博客部署</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="转载非原创，文末附原文链接">
+<title>免费搭建无限空间＆支持身份认证的私人图床</title>
 
-<link rel='canonical' href='https://worhllo.github.io/hugo-dev/p/hugo-github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/'>
+<link rel='canonical' href='https://worhllo.github.io/hugo-dev/p/%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E6%97%A0%E9%99%90%E7%A9%BA%E9%97%B4%E6%94%AF%E6%8C%81%E8%BA%AB%E4%BB%BD%E8%AE%A4%E8%AF%81%E7%9A%84%E7%A7%81%E4%BA%BA%E5%9B%BE%E5%BA%8A/'>
 
-<link rel="stylesheet" href="/hugo-dev/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="Hugo+Github博客部署">
-<meta property='og:description' content="环境准备 下载Hugo 网址：Hugo官网\nGithub地址:gohugoio/hugo\n选择合适的版本下载。 下载git 点击Git官网\n点击 Download for Windows 按照指引安装即可。\n搭建博客 创建Blog 解压hugo_extended_0.134.2_windows-amd64.zip文件，在dev文件夹下进入cmd命令窗口（全选文件路径，输入cmd后回车），输入hugo new site xxxx创建文件（xxx任意命名，此处以dev为例），代码输入无误之后就会生成一个你命名的文件夹。（注意不要急着关闭cmd命令窗口，后面接着要用到）\n">
-<meta property='og:url' content='https://worhllo.github.io/hugo-dev/p/hugo-github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/'>
+<link rel="stylesheet" href="/hugo-dev/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="免费搭建无限空间＆支持身份认证的私人图床">
+<meta property='og:description' content="转载非原创，文末附原文链接">
+<meta property='og:url' content='https://worhllo.github.io/hugo-dev/p/%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E6%97%A0%E9%99%90%E7%A9%BA%E9%97%B4%E6%94%AF%E6%8C%81%E8%BA%AB%E4%BB%BD%E8%AE%A4%E8%AF%81%E7%9A%84%E7%A7%81%E4%BA%BA%E5%9B%BE%E5%BA%8A/'>
 <meta property='og:site_name' content='Watch Your Back'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='博客' /><meta property='article:published_time' content='2024-11-11T13:12:41&#43;08:00'/><meta property='article:modified_time' content='2024-11-12T13:10:56&#43;00:00'/><meta property='og:image' content='https://worhllo.github.io/hugo-dev/p/hugo-github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/12123.jpg' />
-<meta name="twitter:title" content="Hugo+Github博客部署">
-<meta name="twitter:description" content="环境准备 下载Hugo 网址：Hugo官网\nGithub地址:gohugoio/hugo\n选择合适的版本下载。 下载git 点击Git官网\n点击 Download for Windows 按照指引安装即可。\n搭建博客 创建Blog 解压hugo_extended_0.134.2_windows-amd64.zip文件，在dev文件夹下进入cmd命令窗口（全选文件路径，输入cmd后回车），输入hugo new site xxxx创建文件（xxx任意命名，此处以dev为例），代码输入无误之后就会生成一个你命名的文件夹。（注意不要急着关闭cmd命令窗口，后面接着要用到）\n"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://worhllo.github.io/hugo-dev/p/hugo-github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/12123.jpg' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='图床' /><meta property='article:tag' content='免费' /><meta property='article:published_time' content='2024-11-12T19:14:04&#43;08:00'/><meta property='article:modified_time' content='2024-11-12T13:10:56&#43;00:00'/><meta property='og:image' content='https://worhllo.github.io/hugo-dev/p/%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E6%97%A0%E9%99%90%E7%A9%BA%E9%97%B4%E6%94%AF%E6%8C%81%E8%BA%AB%E4%BB%BD%E8%AE%A4%E8%AF%81%E7%9A%84%E7%A7%81%E4%BA%BA%E5%9B%BE%E5%BA%8A/1432646.png' />
+<meta name="twitter:title" content="免费搭建无限空间＆支持身份认证的私人图床">
+<meta name="twitter:description" content="转载非原创，文末附原文链接"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://worhllo.github.io/hugo-dev/p/%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E6%97%A0%E9%99%90%E7%A9%BA%E9%97%B4%E6%94%AF%E6%8C%81%E8%BA%AB%E4%BB%BD%E8%AE%A4%E8%AF%81%E7%9A%84%E7%A7%81%E4%BA%BA%E5%9B%BE%E5%BA%8A/1432646.png' />
     </head>
     <body class="
     article-page
@@ -266,25 +266,21 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#环境准备">环境准备</a>
+    <li><a href="#环境部署">环境部署</a></li>
+    <li><a href="#telegram-配置">Telegram 配置</a>
       <ol>
-        <li><a href="#下载hugo">下载Hugo</a></li>
-        <li><a href="#下载git">下载git</a></li>
+        <li><a href="#１获取-tg_bot_token">１．获取 TG_BOT_TOKEN</a></li>
+        <li><a href="#２获取-tg_chat_id频道-id">２．获取 TG_CHAT_ID（频道 ID）</a></li>
       </ol>
     </li>
-    <li><a href="#搭建博客">搭建博客</a>
+    <li><a href="#cloudflare-配置">cloudflare 配置</a>
       <ol>
-        <li><a href="#创建blog">创建Blog</a></li>
-        <li><a href="#下载主题">下载主题</a></li>
+        <li><a href="#1设置认证码与后台管理的账号密码">1．设置认证码与后台管理的账号密码</a></li>
+        <li><a href="#2内容审查ａｐｉ">2．内容审查ａｐｉ</a></li>
+        <li><a href="#3随机图ａｐｉ">3．随机图ａｐｉ</a></li>
       </ol>
     </li>
-    <li><a href="#github部署">Github部署</a>
-      <ol>
-        <li><a href="#常规部署">常规部署</a></li>
-        <li><a href="#github-action自动部署">Github Action自动部署</a></li>
-      </ol>
-    </li>
-    <li><a href="#后续新文章写作与上传">后续新文章写作与上传</a></li>
+    <li><a href="#本文出处">本文出处</a></li>
   </ol>
 </nav>
         </div>
@@ -299,13 +295,13 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/hugo-dev/p/hugo-github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/">
-                <img src="/hugo-dev/p/hugo-github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/12123_hu1731622549836272806.jpg"
-                        srcset="/hugo-dev/p/hugo-github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/12123_hu1731622549836272806.jpg 800w, /hugo-dev/p/hugo-github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/12123_hu12993564078996614199.jpg 1600w"
+            <a href="/hugo-dev/p/%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E6%97%A0%E9%99%90%E7%A9%BA%E9%97%B4%E6%94%AF%E6%8C%81%E8%BA%AB%E4%BB%BD%E8%AE%A4%E8%AF%81%E7%9A%84%E7%A7%81%E4%BA%BA%E5%9B%BE%E5%BA%8A/">
+                <img src="/hugo-dev/p/%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E6%97%A0%E9%99%90%E7%A9%BA%E9%97%B4%E6%94%AF%E6%8C%81%E8%BA%AB%E4%BB%BD%E8%AE%A4%E8%AF%81%E7%9A%84%E7%A7%81%E4%BA%BA%E5%9B%BE%E5%BA%8A/1432646_hu2048730432744070096.png"
+                        srcset="/hugo-dev/p/%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E6%97%A0%E9%99%90%E7%A9%BA%E9%97%B4%E6%94%AF%E6%8C%81%E8%BA%AB%E4%BB%BD%E8%AE%A4%E8%AF%81%E7%9A%84%E7%A7%81%E4%BA%BA%E5%9B%BE%E5%BA%8A/1432646_hu2048730432744070096.png 800w, /hugo-dev/p/%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E6%97%A0%E9%99%90%E7%A9%BA%E9%97%B4%E6%94%AF%E6%8C%81%E8%BA%AB%E4%BB%BD%E8%AE%A4%E8%AF%81%E7%9A%84%E7%A7%81%E4%BA%BA%E5%9B%BE%E5%BA%8A/1432646_hu15996509888396501664.png 1600w"
                         width="800" 
-                        height="363" 
+                        height="369" 
                         loading="lazy"
-                        alt="Featured image of post Hugo&#43;Github博客部署" />
+                        alt="Featured image of post 免费搭建无限空间＆支持身份认证的私人图床" />
                 
             </a>
         </div>
@@ -324,9 +320,13 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/hugo-dev/p/hugo-github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/">Hugo&#43;Github博客部署</a>
+            <a href="/hugo-dev/p/%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E6%97%A0%E9%99%90%E7%A9%BA%E9%97%B4%E6%94%AF%E6%8C%81%E8%BA%AB%E4%BB%BD%E8%AE%A4%E8%AF%81%E7%9A%84%E7%A7%81%E4%BA%BA%E5%9B%BE%E5%BA%8A/">免费搭建无限空间＆支持身份认证的私人图床</a>
         </h2>
     
+        
+        <h3 class="article-subtitle">
+            转载非原创，文末附原文链接
+        </h3>
         
     </div>
 
@@ -346,7 +346,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">2024-11-11</time>
+                <time class="article-time--published">2024-11-12</time>
             </div>
         
 
@@ -361,7 +361,7 @@
 
 
                 <time class="article-time--reading">
-                    阅读时长: 5 分钟
+                    阅读时长: 3 分钟
                 </time>
             </div>
         
@@ -376,464 +376,332 @@
     <section class="article-content">
     
     
-    <h2 id="环境准备">环境准备
-</h2><h3 id="下载hugo">下载Hugo
-</h3><ul>
-<li>
-<p>网址：<a class="link" href="https://gohugo.io/"  target="_blank" rel="noopener"
-    >Hugo官网</a></p>
-</li>
-<li>
-<p>Github地址:<a class="link" href="https://github.com/gohugoio/hugo"  target="_blank" rel="noopener"
-    >gohugoio/hugo</a></p>
-</li>
-</ul>
-<p><img src="https://imgbed.worhllo.us.kg/file/1731302389412_image1.png"
-	
-	
-	
-	loading="lazy"
-	
-		alt="image1.png"
-	
-	
-></p>
+    <h1 id="初步介绍">初步介绍
+</h1><blockquote>
+<p>本项目是 <a class="link" href="https://github.com/cf-pages/Telegraph-Image"  target="_blank" rel="noopener"
+    >Telegraph-Image</a> 的重制版，</p>
 <ul>
-<li>选择合适的版本下载。</li>
+<li>项目图片存储在 telegraph 的服务器上，支持图片审查 API，可自动屏蔽不良图片；</li>
+<li>项目由 cloudflare 提供全球 cdn 服务，基于 cloudflare pages 执行，可自定义域名；</li>
+<li>项目支持身份认证和多种上传方式（拖拽，选择文件，粘贴等），图片突破 5mb 的上传限制；</li>
+<li>项目的自定义程度极高，可自定义页面，网站名称与 logo，过渡动画流畅丝滑</li>
+<li><a class="link" href="https://sanyue.site/"  target="_blank" rel="noopener"
+    >作者博客（点击跳转）</a></li>
+<li><a class="link" href="https://github.com/MarSeventh/Sanyue-ImgHub"  target="_blank" rel="noopener"
+    >前端仓库（点击跳转）</a></li>
+<li><a class="link" href="https://sanyue.site/"  target="_blank" rel="noopener"
+    >项目仓库（点击跳转）</a></li>
 </ul>
-<h3 id="下载git">下载git
-</h3><ul>
-<li>
-<p>点击<a class="link" href="https://git-scm.com/"  target="_blank" rel="noopener"
-    >Git官网</a></p>
-<p><img src="https://imgbed.worhllo.us.kg/file/1731302674605_Git%e5%ae%98%e7%bd%91.png"
-	
-	
-	
-	loading="lazy"
-	
-		alt="Git官网.png"
-	
-	
-></p>
-</li>
-<li>
-<p>点击 <strong>Download for Windows</strong> 按照<a class="link" href="https://blog.csdn.net/weixin_42242910/article/details/136297201"  target="_blank" rel="noopener"
-    >指引</a>安装即可。</p>
-</li>
-</ul>
-<h2 id="搭建博客">搭建博客
-</h2><h3 id="创建blog">创建Blog
-</h3><ul>
-<li>
-<p>解压<code>hugo_extended_0.134.2_windows-amd64.zip</code>文件，在<code>dev</code>文件夹下进入cmd命令窗口（<strong>全选文件路径，输入cmd后回车</strong>），输入<code>hugo new site xxxx</code>创建文件（<strong>xxx任意命名，此处以dev为例</strong>），代码输入无误之后就会生成一个你命名的文件夹。（<strong>注意不要急着关闭cmd命令窗口，后面接着要用到</strong>）</p>
-<p><img src="https://imgbed.worhllo.us.kg/file/1731306688619_555.png"
-	
-	
-	
-	loading="lazy"
-	
-		alt="555.png"
-	
-	
-></p>
-<p><img src="https://imgbed.worhllo.us.kg/file/1731302868323_file%e6%88%aa%e5%9b%be.png"
-	
-	
-	
-	loading="lazy"
-	
-		alt="file截图.png"
-	
-	
-></p>
-</li>
-<li>
-<p>再次打开cmd命令窗口，输入<code>cd dev</code></p>
-</li>
-<li>
-<p>将上图页面中的<code>hugo.exe</code>文件复制到<code>dev</code>文件内。</p>
-<p><img src="https://imgbed.worhllo.us.kg/file/1731303239677_111.png"
-	
-	
-	
-	loading="lazy"
-	
-		alt="111.png"
-	
-	
-></p>
-</li>
-<li>
-<p>在cmd命令行中输入<code>hugo server -D</code>，运行成功后会出现以下界面：</p>
-<p><img src="https://imgbed.worhllo.us.kg/file/1731310888077_hugo.png"
-	
-	
-	
-	loading="lazy"
-	
-		alt="hugo.png"
-	
-	
-></p>
-</li>
-<li>
-<p>此时，在浏览器中输入命令窗口中出现的链接，即<code>http://localhost:1313/</code>，如果操作无误，则会提示<code>Page Not Found</code></p>
-</li>
-</ul>
-<h3 id="下载主题">下载主题
-</h3><ul>
-<li>
-<p>再次进入<a class="link" href="https://gohugo.io/"  target="_blank" rel="noopener"
-    ><strong>Hugo官网</strong></a>。</p>
-</li>
-<li>
-<p>点击<code>Themes</code>选择一款适合的主题，这里以<code>Stack</code>这款主题为例。</p>
-<p><img src="https://imgbed.worhllo.us.kg/file/1731303957330_Stack.png"
-	
-	
-	
-	loading="lazy"
-	
-		alt="Stack.png"
-	
-	
-></p>
-</li>
-<li>
-<p>点击<code>Download</code>，下滑至<code>Assets</code>界面，并选择适当的版本，将源码下载下来。</p>
-<p><img src="https://imgbed.worhllo.us.kg/file/1731304063587_image9.png"
-	
-	
-	
-	loading="lazy"
-	
-		alt="image9.png"
-	
-	
-></p>
-</li>
-<li>
-<p>将文件解压，将其命名为<code>hugo-theme-stack</code>，移动至<code>dev\themes</code>文件下，接着打开<code>exampleSite</code>文件夹，复制其中的<code> Content</code> 和 <code>hugo.yaml</code> 复制到主文件夹<code>dev</code>中，然后删掉<code>hugo.toml</code>。</p>
-<p><img src="https://imgbed.worhllo.us.kg/file/1731310967811_999.png"
-	
-	
-	
-	loading="lazy"
-	
-		alt="999.png"
-	
-	
-></p>
-</li>
-<li>
-<p>再次打开cmd命令窗口，输入<code>hugo server -D</code>，打开浏览器输入<code>http://localhost:1313/</code>，若操作无误则主题会正常显示，并出现出相关范例文章。</p>
-<p><img src="https://imgbed.worhllo.us.kg/file/1731304629655_111.png"
-	
-	
-	
-	loading="lazy"
-	
-		alt="111.png"
-	
-	
-></p>
-</li>
-</ul>
-<h2 id="github部署">Github部署
-</h2><h3 id="常规部署">常规部署
-</h3><ul>
-<li>
-<p>前提条件：拥有一个属于自己的github账号，没有请自行注册。</p>
-</li>
-<li>
-<p>新建仓库，命名任意，但是最好命名为<code>xxx(你的gitub用户名).github.io</code>，（<strong>后续生成的链接短，访问博客很方便</strong>）选择<code>Public</code>，最后点击<code>Creat respository</code></p>
-<p><img src="https://imgbed.worhllo.us.kg/file/1731304995863_222.png"
-	
-	
-	
-	loading="lazy"
-	
-		alt="222.png"
-	
-	
-></p>
-<p><img src="https://imgbed.worhllo.us.kg/file/1731304991297_333.png"
-	
-	
-	
-	loading="lazy"
-	
-		alt="333.png"
-	
-	
-></p>
-</li>
-<li>
-<p>进入到刚创建好的仓库后，前往<code>setting -&gt; Pages -&gt; Branch</code>选择main分支，点击<code>Save</code>，等待一会儿，就会出现<code>https://{github用户名}.github.io</code> 的地址，该地址即为博客的访问地址。</p>
-<p><img src="https://imgbed.worhllo.us.kg/file/1731311033715_1213.png"
-	
-	
-	
-	loading="lazy"
-	
-		alt="1213.png"
-	
-	
-></p>
-</li>
-<li>
-<p>此时，原来的cmd命令窗口终于能关掉了，接着，在<code>public</code>文件夹（<strong>跟之前不一样了，注意</strong>）下进入cmd命令窗口（<strong>全选文件路径，输入cmd后回车</strong>），依次以下命令，操作无误后刷新新建仓库，就会发现文件都上传到github仓库上面了。至此，hugo博客的基本搭建已经结束。</p>
-<div class="table-wrapper"><table>
-  <thead>
-      <tr>
-          <th><code>cmd命令</code></th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><code>git init</code></td>
-      </tr>
-      <tr>
-          <td><code>git add</code> .</td>
-      </tr>
-      <tr>
-          <td><code>git commit -m &quot;first commit&quot;</code></td>
-      </tr>
-      <tr>
-          <td><code>git branch -M main</code></td>
-      </tr>
-      <tr>
-          <td><code>git remote add origin {你的github仓库地址}</code></td>
-      </tr>
-      <tr>
-          <td><code>git push -u origin main</code></td>
-      </tr>
-  </tbody>
-</table></div>
-</li>
-</ul>
-<h3 id="github-action自动部署">Github Action自动部署
-</h3><blockquote>
-<p>​       Github Actions是Github上一个类似于持续集成的功能，它允许你在一些节点上（如提交代码，特定时间等）触发一些操作，用到博客上之后，每次只需要在cmd命令行中提交3行简单代码， 就能实现上文将<code>publish</code>上传至github的繁琐操作，实现自动部署。</p>
 </blockquote>
-<ul>
-<li>
-<p>在Github上面再次新建一个仓库，用于存放Hugo的主文件，名称任意设置，安全起见，建议将状态设置为<code>private</code>，接着点击<code>Creat respository</code></p>
-</li>
-<li>
-<p>前往<code>settings -&gt; Developer Settings -&gt; Personal access tokens</code>，创建一个<code>token(classic)</code>。</p>
-</li>
-<li>
-<p>token选择永不过期，并且勾选<strong>repo</strong>和<strong>workflow</strong>选项，最后点击<code>generate</code>，复制生成的token（<strong>只会显示一次，注意保存</strong>）</p>
-<p><img src="https://imgbed.worhllo.us.kg/file/1731307583975_202409181729591.png"
+<h1 id="界面一览">界面一览
+</h1><p><img src="https://imgbed.worhllo.us.kg/file/1731411605668_111.jpg"
 	
 	
 	
 	loading="lazy"
 	
-		alt="202409181729591.png"
+		alt="111.jpg"
 	
 	
 ></p>
-</li>
-<li>
-<p>为保证安全，可以将生成的token，保存的仓库的变量中，前往<code>Settings -&gt; Secrets and variables -&gt; Actions</code>中设置，任意命名，粘贴生成的token。</p>
-<p><img src="https://imgbed.worhllo.us.kg/file/1731307761567_202409181730141.png"
+<h1 id="正式实操">正式实操
+</h1><h2 id="环境部署">环境部署
+</h2><p>部署此项目首先要求你拥有一个 <a class="link" href="https://github.com/"  target="_blank" rel="noopener"
+    >GitHub 账号（点击跳转）</a>，一个 <a class="link" href="https://www.cloudflare.com/"  target="_blank" rel="noopener"
+    >cloudflare 账号（点击跳转）</a>，一个属于自己的域名以及一个 Telegram 账号</p>
+<h2 id="telegram-配置">Telegram 配置
+</h2><h3 id="１获取-tg_bot_token">１．获取 TG_BOT_TOKEN
+</h3><p>登陆telegram ，在搜索框中搜索 <code>@BotFather.bat </code>（<strong>注意甄别，千万别点错了</strong>）</p>
+<p><img src="https://imgbed.worhllo.us.kg/file/1731412120575_dsads.jpg"
 	
 	
 	
 	loading="lazy"
 	
-		alt="202409181730141.png"
+		alt="dsads.jpg"
 	
 	
 ></p>
-</li>
-<li>
-<p>回到hugo主文件<code>dev</code>，创建一个<code>.github/workflows/xxxx.yaml</code>文件，将下面的代码复制至<code>xxxx.yaml</code>文件中。<strong>（若出现<code>必须键入文件名</code>的提示，方法如下）</strong></p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">解决方法
-</span></span><span class="line"><span class="cl">1、首先创建一个123.githuib的文件
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">2、在该文件所在目录上打开cmd命令窗口，输入rename 123.github .gitub
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">3、点击回车即可完成修改
-</span></span></code></pre></td></tr></table>
-</div>
-</div><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
-</span><span class="lnt">27
-</span><span class="lnt">28
-</span><span class="lnt">29
-</span><span class="lnt">30
-</span><span class="lnt">31
-</span><span class="lnt">32
-</span><span class="lnt">33
-</span><span class="lnt">34
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">name: deploy
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"># 代码提交到main分支时触发github action
-</span></span><span class="line"><span class="cl">on:
-</span></span><span class="line"><span class="cl">  push:
-</span></span><span class="line"><span class="cl">    branches:
-</span></span><span class="line"><span class="cl">      - main
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">jobs:
-</span></span><span class="line"><span class="cl">  deploy:
-</span></span><span class="line"><span class="cl">    runs-on: ubuntu-latest
-</span></span><span class="line"><span class="cl">    steps:
-</span></span><span class="line"><span class="cl">        - name: Checkout
-</span></span><span class="line"><span class="cl">          uses: actions/checkout@v4
-</span></span><span class="line"><span class="cl">          with:
-</span></span><span class="line"><span class="cl">              fetch-depth: 0
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        - name: Setup Hugo
-</span></span><span class="line"><span class="cl">          uses: peaceiris/actions-hugo@v3
-</span></span><span class="line"><span class="cl">          with:
-</span></span><span class="line"><span class="cl">              hugo-version: &#34;latest&#34;
-</span></span><span class="line"><span class="cl">              extended: true
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">        - name: Build Web
-</span></span><span class="line"><span class="cl">          run: hugo -D
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">      - name: Deploy Web
-</span></span><span class="line"><span class="cl">          uses: peaceiris/actions-gh-pages@v4
-</span></span><span class="line"><span class="cl">          with:
-</span></span><span class="line"><span class="cl">              PERSONAL_TOKEN: ${{ secrets.你的token变量名 }}
-</span></span><span class="line"><span class="cl">              EXTERNAL_REPOSITORY: 你的github名/你的仓库名
-</span></span><span class="line"><span class="cl">              PUBLISH_BRANCH: main
-</span></span><span class="line"><span class="cl">              PUBLISH_DIR: ./public
-</span></span><span class="line"><span class="cl">              commit_message: auto deploy
-</span></span></code></pre></td></tr></table>
-</div>
-</div></li>
-<li>
-<p>接着在hugo主文件<code>dev</code>中创建<code>.gitignore</code>文件，来避免提交不必要的文件（<strong>不需要<code>hugo.exe，public，resources，.hugo_build.lock</code></strong>），文件内容如下</p>
-<p><img src="https://imgbed.worhllo.us.kg/file/1731310348318_888.png"
+<p>打开对话界面，点击 <code>开始</code>然后按图示进行配置，得到TOKEN后复制保存备用</p>
+<p><img src="https://imgbed.worhllo.us.kg/file/1731412230292_gsdfgsd.jpg"
 	
 	
 	
 	loading="lazy"
 	
-		alt="888.png"
+		alt="gsdfgsd.jpg"
 	
 	
 ></p>
-</li>
-<li>
-<p>在<code>dev</code>文件夹（<strong>又不一样了，注意</strong>）下进入cmd命令窗口（<strong>全选文件路径，输入cmd后回车</strong>），依次输入以下命令，操作无误后刷新，就会发现大部分文件都上传到github仓库上面了（<strong>不必要的文件上一步已经排除掉了</strong>）至此，hugo博客的自动部署也已经结束。</p>
+<h3 id="２获取-tg_chat_id频道-id">２．获取 TG_CHAT_ID（频道 ID）
+</h3><p>在 telegram 中 打开左侧的二级菜单，打开<code>新建频道</code>（<strong>Manage Channel</strong>），频道名字任意，后面内容可以直接跳过。</p>
+<p><img src="https://imgbed.worhllo.us.kg/file/1731415243207_wqrewf.jpg"
+	
+	
+	
+	loading="lazy"
+	
+		alt="wqrewf.jpg"
+	
+	
+></p>
+<p>完成创建后找到<code>管理频道</code>，在菜单中找到 <code>管理员</code>（<strong>Administrators</strong>），菜单中点击 <code>添加管理员</code>，将刚才创建的机器人（<strong>你命名的那个机器人</strong>）也设为管理员（<strong>注意搜索时要 @刚才设置的用户名 别填加错了</strong>），权限默认即可。</p>
+<img src="https://imgbed.worhllo.us.kg/file/1731415292316_dgdfgdh.jpg" alt="dgdfgdh.jpg"  />
+<p><img src="https://imgbed.worhllo.us.kg/file/1731415328251_erqwetwet.jpg"
+	
+	
+	
+	loading="lazy"
+	
+		alt="erqwetwet.jpg"
+	
+	
+></p>
+<p>完成后首页搜索 <code>@VersaToolsBot</code>，回复<code>/start</code>然后在你刚才创建的频道里随便发一条消息，并将消息转发到 <code>@VersaToolsBot</code>，接着就会得到我们需要的ID，复制保存备用。</p>
+<p><img src="https://imgbed.worhllo.us.kg/file/1731415511836_dsagfh.jpg"
+	
+	
+	
+	loading="lazy"
+	
+		alt="dsagfh.jpg"
+	
+	
+></p>
+<h2 id="cloudflare-配置">cloudflare 配置
+</h2><p>首先打开该<a class="link" href="https://github.com/MarSeventh/CloudFlare-ImgBed"  target="_blank" rel="noopener"
+    >项目仓库（点击跳转）</a>，点击 <code>Fork</code>，跳转页面后不需要任何改动，直接点击 <code>Create fork”</code>即可</p>
+<p><img src="https://imgbed.worhllo.us.kg/file/1731415155858_wtreger.jpg"
+	
+	
+	
+	loading="lazy"
+	
+		alt="wtreger.jpg"
+	
+	
+></p>
+<p><img src="https://imgbed.worhllo.us.kg/file/1731415129812_qetry.jpg"
+	
+	
+	
+	loading="lazy"
+	
+		alt="qetry.jpg"
+	
+	
+></p>
+<p>成功创建 fork 后来到 登录cloudflare 账号，打开仪表盘，点击侧边栏中的 <code>Workers</code>和 <code>Pages</code>，点击上方的 <code>创建</code>，选到 <code>Pages</code>一栏，点击 <code>连接到 Git</code></p>
+<p><img src="https://imgbed.worhllo.us.kg/file/1731415087443_wyrty.jpg"
+	
+	
+	
+	loading="lazy"
+	
+		alt="wyrty.jpg"
+	
+	
+></p>
+<p><img src="https://imgbed.worhllo.us.kg/file/1731415027560_czvfdg.jpg"
+	
+	
+	
+	loading="lazy"
+	
+		alt="czvfdg.jpg"
+	
+	
+></p>
+<p><img src="https://imgbed.worhllo.us.kg/file/1731414983642_tytryrt.jpg"
+	
+	
+	
+	loading="lazy"
+	
+		alt="tytryrt.jpg"
+	
+	
+></p>
+<p>在打开的第一个页面点击 <code>连接到 GitHub</code>，随后会跳转到 GitHub 进行授权，选到 <code>All repositories</code></p>
+<p>完成授权后会回到cloudflare，找到选择存储库的界面，选择刚才 fork 的仓库后点击 <code>开始设置</code>，跳转页面后直接划到下面点击 <code>保存并部署即可</code>，出现下图即部署完成，点击 <code>继续处理项目</code></p>
+<p><img src="https://imgbed.worhllo.us.kg/file/1731414943151_retret.jpg"
+	
+	
+	
+	loading="lazy"
+	
+		alt="retret.jpg"
+	
+	
+></p>
+<p><img src="https://imgbed.worhllo.us.kg/file/1731414903794_ryretre.jpg"
+	
+	
+	
+	loading="lazy"
+	
+		alt="ryretre.jpg"
+	
+	
+></p>
+<h3 id="1设置认证码与后台管理的账号密码">1．设置认证码与后台管理的账号密码
+</h3><p>点击 <code>自定义域</code>， 添加一个你自己的域名，点击左侧栏中的 <code>KV</code>，点击 <code>创建命名空间</code>，
+名称为 <code>img_url</code>点击 <code>添加</code></p>
+<p><img src="https://imgbed.worhllo.us.kg/file/1731414870199_tutut.jpg"
+	
+	
+	
+	loading="lazy"
+	
+		alt="tutut.jpg"
+	
+	
+></p>
+<p><img src="https://imgbed.worhllo.us.kg/file/1731414826662_fgfdh.jpg"
+	
+	
+	
+	loading="lazy"
+	
+		alt="fgfdh.jpg"
+	
+	
+></p>
+<p><img src="https://imgbed.worhllo.us.kg/file/1731414779533_hjhf.jpg"
+	
+	
+	
+	loading="lazy"
+	
+		alt="hjhf.jpg"
+	
+	
+></p>
+<p><img src="https://imgbed.worhllo.us.kg/file/1731414733617_ghgf.jpg"
+	
+	
+	
+	loading="lazy"
+	
+		alt="ghgf.jpg"
+	
+	
+></p>
+<p>完成添加后回到 <code>page</code> 的界面，点击 <code>设置</code> 后点击 <code>变量与机密</code>，找到 <code>绑定</code> 一栏，点击 <code>添加</code> ，在弹出的页面中找到 <code>KV 命名空间</code>，<code>变量名称</code>填写 <code>img_url</code>，<code>KV 命名空间 </code>选择刚才创建的 KV <code>img_url</code>完成后点击保存</p>
+<p><img src="https://imgbed.worhllo.us.kg/file/1731414655315_bvnbc.jpg"
+	
+	
+	
+	loading="lazy"
+	
+		alt="bvnbc.jpg"
+	
+	
+></p>
+<p><img src="https://imgbed.worhllo.us.kg/file/1731414600432_sfgfdg.jpg"
+	
+	
+	
+	loading="lazy"
+	
+		alt="sfgfdg.jpg"
+	
+	
+></p>
+<p><img src="https://imgbed.worhllo.us.kg/file/1731414533935_kjhkg.jpg"
+	
+	
+	
+	loading="lazy"
+	
+		alt="kjhkg.jpg"
+	
+	
+></p>
+<p>在绑定的上面找到 <code>变量与机密</code>一栏，点击右侧的 <code>添加</code>，添加 <code>环境变量</code>，常用环境变量如下表，按需要添加</p>
 <div class="table-wrapper"><table>
   <thead>
       <tr>
-          <th>cmd命令</th>
+          <th>变量名称</th>
+          <th><strong>作用</strong></th>
+          <th style="text-align: center"><strong>是否推荐</strong></th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td><code>git init</code></td>
+          <td><em><strong>TG_CHAT_ID</strong></em></td>
+          <td>telegram 频道 ID</td>
+          <td style="text-align: center"><strong>必须</strong></td>
       </tr>
       <tr>
-          <td><code>git add</code> .</td>
+          <td><strong>TG_BOT_TOKEN</strong></td>
+          <td>telegram 机器人 token</td>
+          <td style="text-align: center"><strong>必须</strong></td>
       </tr>
       <tr>
-          <td><code>git commit -m &quot;first commit&quot;</code></td>
+          <td><em><strong>BASIC_USER</strong></em></td>
+          <td>后台管理的账户名</td>
+          <td style="text-align: center">推荐</td>
       </tr>
       <tr>
-          <td><code>git branch -M main</code></td>
+          <td><em><strong>BASIC_PASS</strong></em></td>
+          <td>后台管理的密码</td>
+          <td style="text-align: center">推荐</td>
       </tr>
       <tr>
-          <td><code>git remote add origin {你的github仓库地址}</code></td>
+          <td><em><strong>AUTH_CODE</strong></em></td>
+          <td>前台的认证码</td>
+          <td style="text-align: center">强烈推荐</td>
       </tr>
       <tr>
-          <td><code>git push -u origin main</code></td>
+          <td><em><strong>ModerateContentApiKey</strong></em></td>
+          <td>前台的认证码</td>
+          <td style="text-align: center"></td>
+      </tr>
+      <tr>
+          <td><em><strong>ALLOWED_DOMAINS</strong></em></td>
+          <td>防盗链 访问域名限制 多个允许的域名用英文 <code>,</code> 分割，如：<code>域名.com,域名2.top</code></td>
+          <td style="text-align: center"></td>
+      </tr>
+      <tr>
+          <td><em><strong>AllowRandom</strong></em></td>
+          <td>随机图 api 的前置，后面会讲到</td>
+          <td style="text-align: center"></td>
       </tr>
   </tbody>
 </table></div>
-<p><img src="https://imgbed.worhllo.us.kg/file/1731308860942_777.png"
+<p>完成后点击<code>保存</code>， 然后<code>重新部署</code>（<strong>所有关于环境变量和 kv 绑定的修改都要重新部署一遍</strong>），选到 <code>部署</code>一栏， 在 <code>所有部署</code>下面找到你最新的部署（<strong>就是最上面的那一个</strong>），鼠标点击在右侧三个点，在弹出的菜单中选择 <code>重新部署</code>，等待部署完成后即可使用</p>
+<p><img src="https://imgbed.worhllo.us.kg/file/1731414454839_ghgfh.jpg"
 	
 	
 	
 	loading="lazy"
 	
-		alt="777.png"
+		alt="ghgfh.jpg"
 	
 	
 ></p>
-</li>
-</ul>
-<h2 id="后续新文章写作与上传">后续新文章写作与上传
-</h2><ul>
-<li>
-<p>后续撰写新文章的话，按<code>三步走</code>就能实现本地撰写和线上同步</p>
-<ol>
-<li>
-<p>在<code>dev</code>文件夹下进入cmd命令窗口（<strong>全选文件路径，输入cmd后回车</strong>），输入<code>hugo new content post/xxxx/index.md</code>（<strong>xxx名字自定</strong>)</p>
-</li>
-<li>
-<p>在新创建的文件夹中会有<code>index.md</code>文件，在该文件中撰写文章</p>
-</li>
-<li>
-<p>在<code>dev</code>文件夹下再次进入cmd命令窗口（<strong>全选文件路径，输入cmd后回车</strong>），依次输入以下命令即可</p>
-<div class="table-wrapper"><table>
-  <thead>
-      <tr>
-          <th>cmd命令</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><code>git add</code> .</td>
-      </tr>
-      <tr>
-          <td><code>git commit -m &quot;update&quot;</code></td>
-      </tr>
-      <tr>
-          <td><code>git push</code></td>
-      </tr>
-  </tbody>
-</table></div>
-</li>
-</ol>
-</li>
-</ul>
+<h3 id="2内容审查ａｐｉ">2．内容审查ａｐｉ
+</h3><p>打开 <a class="link" href="https://moderatecontent.com/"  target="_blank" rel="noopener"
+    >moderatecontent 官网（点击跳转）</a>，注册账号后获取到你的 api ，在环境变量中添加一条 <code>ModerateContentApiKey</code>，值就是你获取的 api，保存后别忘了重新部署一遍</p>
+<h3 id="3随机图ａｐｉ">3．随机图ａｐｉ
+</h3><p><img src="https://imgbed.worhllo.us.kg/file/1731414325208_hdfhg.jpg"
+	
+	
+	
+	loading="lazy"
+	
+		alt="hdfhg.jpg"
+	
+	
+></p>
+<p>在设置好环境变量后访问 <a class="link" href="https://your.domain/random"  target="_blank" rel="noopener"
+    >https://your.domain/random</a></p>
+<h2 id="本文出处">本文出处
+</h2><p><a class="link" href="https://www.yunsen2025.top/archives/265"  target="_blank" rel="noopener"
+    >完全免费，图文教程手把手教你使用cloudflare搭拜一个无限空间的私人图床，支特身份认证与成人元素鉴定</a></p>
+<p><a class="link" href="https://www.huluohu.com/posts/456/"  target="_blank" rel="noopener"
+    >保姆级教程：使用Cloudflare+Telegraph搭建零成本图床系统 - 胡萝虎的博客 (huluohu.com)</a></p>
 
 </section>
 
@@ -842,7 +710,9 @@
     
     <section class="article-tags">
         
-            <a href="/hugo-dev/tags/%E5%8D%9A%E5%AE%A2/">博客</a>
+            <a href="/hugo-dev/tags/%E5%9B%BE%E5%BA%8A/">图床</a>
+        
+            <a href="/hugo-dev/tags/%E5%85%8D%E8%B4%B9/">免费</a>
         
     </section>
 
@@ -912,30 +782,6 @@
             
                 
 <article class="has-image">
-    <a href="/hugo-dev/p/%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E6%97%A0%E9%99%90%E7%A9%BA%E9%97%B4%E6%94%AF%E6%8C%81%E8%BA%AB%E4%BB%BD%E8%AE%A4%E8%AF%81%E7%9A%84%E7%A7%81%E4%BA%BA%E5%9B%BE%E5%BA%8A/">
-        
-        
-            <div class="article-image">
-                <img src="/hugo-dev/p/%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E6%97%A0%E9%99%90%E7%A9%BA%E9%97%B4%E6%94%AF%E6%8C%81%E8%BA%AB%E4%BB%BD%E8%AE%A4%E8%AF%81%E7%9A%84%E7%A7%81%E4%BA%BA%E5%9B%BE%E5%BA%8A/1432646.5a663253bc94b91994f5be2f63da5832_hu6620809852642874638.png" 
-                        width="250" 
-                        height="150" 
-                        loading="lazy"
-                        alt="Featured image of post 免费搭建无限空间＆支持身份认证的私人图床"
-                        
-                        data-hash="md5-WmYyU7yUuRmU9b4vY9pYMg==">
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">免费搭建无限空间＆支持身份认证的私人图床</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
     <a href="/hugo-dev/p/win-r%E8%87%AA%E5%8A%A8%E5%8C%96%E5%BA%94%E7%94%A8/">
         
         
@@ -953,6 +799,30 @@
 
         <div class="article-details">
             <h2 class="article-title">Win&#43;R自动化应用</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/hugo-dev/p/hugo-github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/">
+        
+        
+            <div class="article-image">
+                <img src="/hugo-dev/p/hugo-github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/12123.b98f11cb0b6612fba388e68bea1c5eb7_hu10168278720556397519.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Hugo&#43;Github博客部署"
+                        
+                        data-hash="md5-uY8RywtmEvujiOaL6hxetw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Hugo&#43;Github博客部署</h2>
         </div>
     </a>
 </article>
