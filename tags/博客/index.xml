@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>博客 on Watch Your Back&#39;s Blog</title>
-        <link>https://example.com/tags/%E5%8D%9A%E5%AE%A2/</link>
+        <link>https://worhllo.github.io/hugo-dev/tags/%E5%8D%9A%E5%AE%A2/</link>
         <description>Recent content in 博客 on Watch Your Back&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Watch Your Back</copyright>
-        <lastBuildDate>Fri, 15 Nov 2024 16:38:57 +0000</lastBuildDate><atom:link href="https://example.com/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 15 Nov 2024 16:50:00 +0000</lastBuildDate><atom:link href="https://worhllo.github.io/hugo-dev/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Stack主题美化超级汇总</title>
-        <link>https://example.com/p/stack%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E8%B6%85%E7%BA%A7%E6%B1%87%E6%80%BB/</link>
+        <link>https://worhllo.github.io/hugo-dev/p/stack%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E8%B6%85%E7%BA%A7%E6%B1%87%E6%80%BB/</link>
         <pubDate>Thu, 14 Nov 2024 22:47:32 +0800</pubDate>
         
-        <guid>https://example.com/p/stack%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E8%B6%85%E7%BA%A7%E6%B1%87%E6%80%BB/</guid>
+        <guid>https://worhllo.github.io/hugo-dev/p/stack%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E8%B6%85%E7%BA%A7%E6%B1%87%E6%80%BB/</guid>
         <description>&lt;h2 id=&#34;前言&#34;&gt;前言
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Hugo Stack&lt;/strong&gt; 是一款专为博主设计的卡片风格的 Hugo 主题。它提供了一套丰富的特性集合，包括自动生成目录、本地搜索、代码高亮、图片放大等功能。该主题遵循 MIT 许可证发布，且其标志性的简洁与易用性让它成为众多个人博客的优选方案。详细信息可以通过访问 &lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -1601,11 +1601,11 @@
         </item>
         <item>
         <title>Hugo&#43;Github博客部署</title>
-        <link>https://example.com/p/hugo-github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/</link>
+        <link>https://worhllo.github.io/hugo-dev/p/hugo-github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/</link>
         <pubDate>Mon, 11 Nov 2024 13:12:41 +0800</pubDate>
         
-        <guid>https://example.com/p/hugo-github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/</guid>
-        <description>&lt;img src="https://example.com/p/hugo-github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/12123.jpg" alt="Featured image of post Hugo&#43;Github博客部署" /&gt;&lt;h2 id=&#34;环境准备&#34;&gt;环境准备
+        <guid>https://worhllo.github.io/hugo-dev/p/hugo-github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/</guid>
+        <description>&lt;img src="https://worhllo.github.io/hugo-dev/p/hugo-github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/12123.jpg" alt="Featured image of post Hugo&#43;Github博客部署" /&gt;&lt;h2 id=&#34;环境准备&#34;&gt;环境准备
 &lt;/h2&gt;&lt;h3 id=&#34;下载hugo&#34;&gt;下载Hugo
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;

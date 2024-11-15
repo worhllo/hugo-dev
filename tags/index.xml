@@ -2,65 +2,65 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tags on Watch Your Back&#39;s Blog</title>
-        <link>https://example.com/tags/</link>
+        <link>https://worhllo.github.io/hugo-dev/tags/</link>
         <description>Recent content in Tags on Watch Your Back&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Watch Your Back</copyright>
-        <lastBuildDate>Fri, 15 Nov 2024 16:38:57 +0000</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 15 Nov 2024 16:50:00 +0000</lastBuildDate><atom:link href="https://worhllo.github.io/hugo-dev/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Hugo</title>
-        <link>https://example.com/tags/hugo/</link>
+        <link>https://worhllo.github.io/hugo-dev/tags/hugo/</link>
         <pubDate>Thu, 14 Nov 2024 22:47:32 +0800</pubDate>
         
-        <guid>https://example.com/tags/hugo/</guid>
+        <guid>https://worhllo.github.io/hugo-dev/tags/hugo/</guid>
         <description></description>
         </item>
         <item>
         <title>博客</title>
-        <link>https://example.com/tags/%E5%8D%9A%E5%AE%A2/</link>
+        <link>https://worhllo.github.io/hugo-dev/tags/%E5%8D%9A%E5%AE%A2/</link>
         <pubDate>Thu, 14 Nov 2024 22:47:32 +0800</pubDate>
         
-        <guid>https://example.com/tags/%E5%8D%9A%E5%AE%A2/</guid>
+        <guid>https://worhllo.github.io/hugo-dev/tags/%E5%8D%9A%E5%AE%A2/</guid>
         <description></description>
         </item>
         <item>
         <title>主题美化</title>
-        <link>https://example.com/tags/%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</link>
+        <link>https://worhllo.github.io/hugo-dev/tags/%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</link>
         <pubDate>Thu, 14 Nov 2024 22:47:32 +0800</pubDate>
         
-        <guid>https://example.com/tags/%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</guid>
+        <guid>https://worhllo.github.io/hugo-dev/tags/%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/</guid>
         <description></description>
         </item>
         <item>
         <title>免费</title>
-        <link>https://example.com/tags/%E5%85%8D%E8%B4%B9/</link>
+        <link>https://worhllo.github.io/hugo-dev/tags/%E5%85%8D%E8%B4%B9/</link>
         <pubDate>Tue, 12 Nov 2024 19:14:04 +0800</pubDate>
         
-        <guid>https://example.com/tags/%E5%85%8D%E8%B4%B9/</guid>
+        <guid>https://worhllo.github.io/hugo-dev/tags/%E5%85%8D%E8%B4%B9/</guid>
         <description></description>
         </item>
         <item>
         <title>图床</title>
-        <link>https://example.com/tags/%E5%9B%BE%E5%BA%8A/</link>
+        <link>https://worhllo.github.io/hugo-dev/tags/%E5%9B%BE%E5%BA%8A/</link>
         <pubDate>Tue, 12 Nov 2024 19:14:04 +0800</pubDate>
         
-        <guid>https://example.com/tags/%E5%9B%BE%E5%BA%8A/</guid>
+        <guid>https://worhllo.github.io/hugo-dev/tags/%E5%9B%BE%E5%BA%8A/</guid>
         <description></description>
         </item>
         <item>
         <title>Win&#43;R</title>
-        <link>https://example.com/tags/win&#43;r/</link>
+        <link>https://worhllo.github.io/hugo-dev/tags/win&#43;r/</link>
         <pubDate>Tue, 12 Nov 2024 11:11:59 +0800</pubDate>
         
-        <guid>https://example.com/tags/win&#43;r/</guid>
+        <guid>https://worhllo.github.io/hugo-dev/tags/win&#43;r/</guid>
         <description></description>
         </item>
         <item>
         <title>Markdown</title>
-        <link>https://example.com/tags/markdown/</link>
+        <link>https://worhllo.github.io/hugo-dev/tags/markdown/</link>
         <pubDate>Mon, 11 Nov 2024 00:40:48 +0800</pubDate>
         
-        <guid>https://example.com/tags/markdown/</guid>
+        <guid>https://worhllo.github.io/hugo-dev/tags/markdown/</guid>
         <description></description>
         </item>
         
