@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Win&#43;R on Watch Your Back</title>
-        <link>https://worhllo.github.io/hugo-dev/tags/win&#43;r/</link>
-        <description>Recent content in Win&#43;R on Watch Your Back</description>
+        <title>Win&#43;R on Watch Your Back&#39;s Blog</title>
+        <link>https://example.com/tags/win&#43;r/</link>
+        <description>Recent content in Win&#43;R on Watch Your Back&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Watch Your Back</copyright>
-        <lastBuildDate>Tue, 12 Nov 2024 13:10:56 +0000</lastBuildDate><atom:link href="https://worhllo.github.io/hugo-dev/tags/win+r/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 15 Nov 2024 16:32:58 +0000</lastBuildDate><atom:link href="https://example.com/tags/win+r/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Win&#43;R自动化应用</title>
-        <link>https://worhllo.github.io/hugo-dev/p/win-r%E8%87%AA%E5%8A%A8%E5%8C%96%E5%BA%94%E7%94%A8/</link>
+        <link>https://example.com/p/win-r%E8%87%AA%E5%8A%A8%E5%8C%96%E5%BA%94%E7%94%A8/</link>
         <pubDate>Tue, 12 Nov 2024 11:11:59 +0800</pubDate>
         
-        <guid>https://worhllo.github.io/hugo-dev/p/win-r%E8%87%AA%E5%8A%A8%E5%8C%96%E5%BA%94%E7%94%A8/</guid>
-        <description>&lt;img src="https://worhllo.github.io/hugo-dev/p/win-r%E8%87%AA%E5%8A%A8%E5%8C%96%E5%BA%94%E7%94%A8/fsadadesff.jpg" alt="Featured image of post Win&#43;R自动化应用" /&gt;&lt;h1 id=&#34;什么是winr有何优点&#34;&gt;什么是Win+R，有何优点
+        <guid>https://example.com/p/win-r%E8%87%AA%E5%8A%A8%E5%8C%96%E5%BA%94%E7%94%A8/</guid>
+        <description>&lt;img src="https://example.com/p/win-r%E8%87%AA%E5%8A%A8%E5%8C%96%E5%BA%94%E7%94%A8/fsadadesff.jpg" alt="Featured image of post Win&#43;R自动化应用" /&gt;&lt;h1 id=&#34;什么是winr有何优点&#34;&gt;什么是Win+R，有何优点
 &lt;/h1&gt;&lt;blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -135,7 +135,15 @@
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;5本文出处&#34;&gt;&lt;strong&gt;5.本文出处&lt;/strong&gt;
 &lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://mp.weixin.qq.com/s/Bk6iyYo0i5hBtUVqy5eXkQ&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;私认Windows最强效率神器：WIN+R的独家使用心得！（全网最全）&lt;/a&gt;&lt;/p&gt;
+    &gt;私认Windows最强效率神器：WIN+R的独家使用心得！（全网最全） 
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+
+&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         

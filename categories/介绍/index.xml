@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>介绍 on Watch Your Back</title>
-        <link>https://worhllo.github.io/hugo-dev/categories/%E4%BB%8B%E7%BB%8D/</link>
-        <description>Recent content in 介绍 on Watch Your Back</description>
+        <title>介绍 on Watch Your Back&#39;s Blog</title>
+        <link>https://example.com/categories/%E4%BB%8B%E7%BB%8D/</link>
+        <description>Recent content in 介绍 on Watch Your Back&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>Watch Your Back</copyright><atom:link href="https://worhllo.github.io/hugo-dev/categories/%E4%BB%8B%E7%BB%8D/index.xml" rel="self" type="application/rss+xml" /><item>
+        <copyright>Watch Your Back</copyright><atom:link href="https://example.com/categories/%E4%BB%8B%E7%BB%8D/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Markdown语法</title>
-        <link>https://worhllo.github.io/hugo-dev/p/markdown%E8%AF%AD%E6%B3%95/</link>
+        <link>https://example.com/p/markdown%E8%AF%AD%E6%B3%95/</link>
         <pubDate>Mon, 11 Nov 2024 00:40:48 +0800</pubDate>
         
-        <guid>https://worhllo.github.io/hugo-dev/p/markdown%E8%AF%AD%E6%B3%95/</guid>
-        <description>&lt;img src="https://worhllo.github.io/hugo-dev/p/markdown%E8%AF%AD%E6%B3%95/Markdown.jpg" alt="Featured image of post Markdown语法" /&gt;&lt;p&gt;[TOC]&lt;/p&gt;
+        <guid>https://example.com/p/markdown%E8%AF%AD%E6%B3%95/</guid>
+        <description>&lt;img src="https://example.com/p/markdown%E8%AF%AD%E6%B3%95/Markdown.jpg" alt="Featured image of post Markdown语法" /&gt;&lt;iframe frameborder=&#34;no&#34; border=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; width=330 height=86 src=&#34;//music.163.com/outchain/player?type=2&amp;id=1304708603&amp;auto=1&amp;height=66&#34;&gt;&lt;/iframe&gt;
 &lt;h1 id=&#34;markdown语法介绍&#34;&gt;Markdown语法介绍
 &lt;/h1&gt;&lt;h2 id=&#34;一标题&#34;&gt;一、标题
 &lt;/h2&gt;&lt;h3 id=&#34;三号&#34;&gt;三号
@@ -32,9 +32,25 @@
 &lt;p&gt;&lt;del&gt;删除线&lt;/del&gt;&lt;/p&gt;
 &lt;h2 id=&#34;四超链接和图片&#34;&gt;四、超链接和图片
 &lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.baidu.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;超链接,方法1&lt;/a&gt;&lt;/p&gt;
+    &gt;超链接,方法1 
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+
+&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.baidu.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;超链接,方法2&lt;/a&gt;&lt;/p&gt;
+    &gt;超链接,方法2 
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+
+&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://img2.artron.net/artist/A0261635/brt026163505145.jpg&#34;
 	
 	

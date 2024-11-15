@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Pages on Watch Your Back</title>
-        <link>https://worhllo.github.io/hugo-dev/page/</link>
-        <description>Recent content in Pages on Watch Your Back</description>
+        <title>Pages on Watch Your Back&#39;s Blog</title>
+        <link>https://example.com/page/</link>
+        <description>Recent content in Pages on Watch Your Back&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Watch Your Back</copyright>
-        <lastBuildDate>Tue, 12 Nov 2024 21:10:46 +0800</lastBuildDate><atom:link href="https://worhllo.github.io/hugo-dev/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 12 Nov 2024 21:10:46 +0800</lastBuildDate><atom:link href="https://example.com/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>归档</title>
-        <link>https://worhllo.github.io/hugo-dev/archives/</link>
+        <link>https://example.com/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://worhllo.github.io/hugo-dev/archives/</guid>
+        <guid>https://example.com/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>关于</title>
-        <link>https://worhllo.github.io/hugo-dev/%E5%85%B3%E4%BA%8E/</link>
+        <link>https://example.com/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://worhllo.github.io/hugo-dev/%E5%85%B3%E4%BA%8E/</guid>
+        <guid>https://example.com/%E5%85%B3%E4%BA%8E/</guid>
         <description>&lt;p&gt;自我介绍一下：在下&lt;br&gt;
 国家一级熬夜运动员&lt;br&gt;
 国家一级废话大赛总冠军&lt;br&gt;
@@ -33,18 +33,18 @@
         </item>
         <item>
         <title>链接</title>
-        <link>https://worhllo.github.io/hugo-dev/%E9%93%BE%E6%8E%A5/</link>
+        <link>https://example.com/%E9%93%BE%E6%8E%A5/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://worhllo.github.io/hugo-dev/%E9%93%BE%E6%8E%A5/</guid>
+        <guid>https://example.com/%E9%93%BE%E6%8E%A5/</guid>
         <description></description>
         </item>
         <item>
         <title>搜索</title>
-        <link>https://worhllo.github.io/hugo-dev/search/</link>
+        <link>https://example.com/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://worhllo.github.io/hugo-dev/search/</guid>
+        <guid>https://example.com/search/</guid>
         <description></description>
         </item>
         

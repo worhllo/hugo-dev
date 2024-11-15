@@ -1,33 +1,65 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>免费 on Watch Your Back</title>
-        <link>https://worhllo.github.io/hugo-dev/tags/%E5%85%8D%E8%B4%B9/</link>
-        <description>Recent content in 免费 on Watch Your Back</description>
+        <title>免费 on Watch Your Back&#39;s Blog</title>
+        <link>https://example.com/tags/%E5%85%8D%E8%B4%B9/</link>
+        <description>Recent content in 免费 on Watch Your Back&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Watch Your Back</copyright>
-        <lastBuildDate>Tue, 12 Nov 2024 13:10:56 +0000</lastBuildDate><atom:link href="https://worhllo.github.io/hugo-dev/tags/%E5%85%8D%E8%B4%B9/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 15 Nov 2024 16:32:58 +0000</lastBuildDate><atom:link href="https://example.com/tags/%E5%85%8D%E8%B4%B9/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>免费搭建无限空间＆支持身份认证的私人图床</title>
-        <link>https://worhllo.github.io/hugo-dev/p/%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E6%97%A0%E9%99%90%E7%A9%BA%E9%97%B4%E6%94%AF%E6%8C%81%E8%BA%AB%E4%BB%BD%E8%AE%A4%E8%AF%81%E7%9A%84%E7%A7%81%E4%BA%BA%E5%9B%BE%E5%BA%8A/</link>
+        <link>https://example.com/p/%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E6%97%A0%E9%99%90%E7%A9%BA%E9%97%B4%E6%94%AF%E6%8C%81%E8%BA%AB%E4%BB%BD%E8%AE%A4%E8%AF%81%E7%9A%84%E7%A7%81%E4%BA%BA%E5%9B%BE%E5%BA%8A/</link>
         <pubDate>Tue, 12 Nov 2024 19:14:04 +0800</pubDate>
         
-        <guid>https://worhllo.github.io/hugo-dev/p/%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E6%97%A0%E9%99%90%E7%A9%BA%E9%97%B4%E6%94%AF%E6%8C%81%E8%BA%AB%E4%BB%BD%E8%AE%A4%E8%AF%81%E7%9A%84%E7%A7%81%E4%BA%BA%E5%9B%BE%E5%BA%8A/</guid>
-        <description>&lt;img src="https://worhllo.github.io/hugo-dev/p/%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E6%97%A0%E9%99%90%E7%A9%BA%E9%97%B4%E6%94%AF%E6%8C%81%E8%BA%AB%E4%BB%BD%E8%AE%A4%E8%AF%81%E7%9A%84%E7%A7%81%E4%BA%BA%E5%9B%BE%E5%BA%8A/1432646.png" alt="Featured image of post 免费搭建无限空间＆支持身份认证的私人图床" /&gt;&lt;h1 id=&#34;初步介绍&#34;&gt;初步介绍
+        <guid>https://example.com/p/%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E6%97%A0%E9%99%90%E7%A9%BA%E9%97%B4%E6%94%AF%E6%8C%81%E8%BA%AB%E4%BB%BD%E8%AE%A4%E8%AF%81%E7%9A%84%E7%A7%81%E4%BA%BA%E5%9B%BE%E5%BA%8A/</guid>
+        <description>&lt;img src="https://example.com/p/%E5%85%8D%E8%B4%B9%E6%90%AD%E5%BB%BA%E6%97%A0%E9%99%90%E7%A9%BA%E9%97%B4%E6%94%AF%E6%8C%81%E8%BA%AB%E4%BB%BD%E8%AE%A4%E8%AF%81%E7%9A%84%E7%A7%81%E4%BA%BA%E5%9B%BE%E5%BA%8A/1432646.png" alt="Featured image of post 免费搭建无限空间＆支持身份认证的私人图床" /&gt;&lt;h1 id=&#34;初步介绍&#34;&gt;初步介绍
 &lt;/h1&gt;&lt;blockquote&gt;
 &lt;p&gt;本项目是 &lt;a class=&#34;link&#34; href=&#34;https://github.com/cf-pages/Telegraph-Image&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Telegraph-Image&lt;/a&gt; 的重制版，&lt;/p&gt;
+    &gt;Telegraph-Image 
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+
+&lt;/a&gt; 的重制版，&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;项目图片存储在 telegraph 的服务器上，支持图片审查 API，可自动屏蔽不良图片；&lt;/li&gt;
 &lt;li&gt;项目由 cloudflare 提供全球 cdn 服务，基于 cloudflare pages 执行，可自定义域名；&lt;/li&gt;
 &lt;li&gt;项目支持身份认证和多种上传方式（拖拽，选择文件，粘贴等），图片突破 5mb 的上传限制；&lt;/li&gt;
 &lt;li&gt;项目的自定义程度极高，可自定义页面，网站名称与 logo，过渡动画流畅丝滑&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://sanyue.site/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;作者博客（点击跳转）&lt;/a&gt;&lt;/li&gt;
+    &gt;作者博客（点击跳转） 
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+
+&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/MarSeventh/Sanyue-ImgHub&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;前端仓库（点击跳转）&lt;/a&gt;&lt;/li&gt;
+    &gt;前端仓库（点击跳转） 
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+
+&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://sanyue.site/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;项目仓库（点击跳转）&lt;/a&gt;&lt;/li&gt;
+    &gt;项目仓库（点击跳转） 
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+
+&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;h1 id=&#34;界面一览&#34;&gt;界面一览
@@ -44,8 +76,24 @@
 &lt;h1 id=&#34;正式实操&#34;&gt;正式实操
 &lt;/h1&gt;&lt;h2 id=&#34;环境部署&#34;&gt;环境部署
 &lt;/h2&gt;&lt;p&gt;部署此项目首先要求你拥有一个 &lt;a class=&#34;link&#34; href=&#34;https://github.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;GitHub 账号（点击跳转）&lt;/a&gt;，一个 &lt;a class=&#34;link&#34; href=&#34;https://www.cloudflare.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;cloudflare 账号（点击跳转）&lt;/a&gt;，一个属于自己的域名以及一个 Telegram 账号&lt;/p&gt;
+    &gt;GitHub 账号（点击跳转） 
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+
+&lt;/a&gt;，一个 &lt;a class=&#34;link&#34; href=&#34;https://www.cloudflare.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;cloudflare 账号（点击跳转） 
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+
+&lt;/a&gt;，一个属于自己的域名以及一个 Telegram 账号&lt;/p&gt;
 &lt;h2 id=&#34;telegram-配置&#34;&gt;Telegram 配置
 &lt;/h2&gt;&lt;h3 id=&#34;１获取-tg_bot_token&#34;&gt;１．获取 TG_BOT_TOKEN
 &lt;/h3&gt;&lt;p&gt;登陆telegram ，在搜索框中搜索 &lt;code&gt;@BotFather.bat &lt;/code&gt;（&lt;strong&gt;注意甄别，千万别点错了&lt;/strong&gt;）&lt;/p&gt;
@@ -107,7 +155,15 @@
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;cloudflare-配置&#34;&gt;cloudflare 配置
 &lt;/h2&gt;&lt;p&gt;首先打开该&lt;a class=&#34;link&#34; href=&#34;https://github.com/MarSeventh/CloudFlare-ImgBed&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;项目仓库（点击跳转）&lt;/a&gt;，点击 &lt;code&gt;Fork&lt;/code&gt;，跳转页面后不需要任何改动，直接点击 &lt;code&gt;Create fork”&lt;/code&gt;即可&lt;/p&gt;
+    &gt;项目仓库（点击跳转） 
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+
+&lt;/a&gt;，点击 &lt;code&gt;Fork&lt;/code&gt;，跳转页面后不需要任何改动，直接点击 &lt;code&gt;Create fork”&lt;/code&gt;即可&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://imgbed.worhllo.us.kg/file/1731415155858_wtreger.jpg&#34;
 	
 	
@@ -320,7 +376,15 @@
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;2内容审查ａｐｉ&#34;&gt;2．内容审查ａｐｉ
 &lt;/h3&gt;&lt;p&gt;打开 &lt;a class=&#34;link&#34; href=&#34;https://moderatecontent.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;moderatecontent 官网（点击跳转）&lt;/a&gt;，注册账号后获取到你的 api ，在环境变量中添加一条 &lt;code&gt;ModerateContentApiKey&lt;/code&gt;，值就是你获取的 api，保存后别忘了重新部署一遍&lt;/p&gt;
+    &gt;moderatecontent 官网（点击跳转） 
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+
+&lt;/a&gt;，注册账号后获取到你的 api ，在环境变量中添加一条 &lt;code&gt;ModerateContentApiKey&lt;/code&gt;，值就是你获取的 api，保存后别忘了重新部署一遍&lt;/p&gt;
 &lt;h3 id=&#34;3随机图ａｐｉ&#34;&gt;3．随机图ａｐｉ
 &lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://imgbed.worhllo.us.kg/file/1731414325208_hdfhg.jpg&#34;
 	
@@ -333,12 +397,36 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;在设置好环境变量后访问 &lt;a class=&#34;link&#34; href=&#34;https://your.domain/random&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://your.domain/random&lt;/a&gt;&lt;/p&gt;
+    &gt;https://your.domain/random 
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+
+&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;本文出处&#34;&gt;本文出处
 &lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.yunsen2025.top/archives/265&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;完全免费，图文教程手把手教你使用cloudflare搭拜一个无限空间的私人图床，支特身份认证与成人元素鉴定&lt;/a&gt;&lt;/p&gt;
+    &gt;完全免费，图文教程手把手教你使用cloudflare搭拜一个无限空间的私人图床，支特身份认证与成人元素鉴定 
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+
+&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.huluohu.com/posts/456/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;保姆级教程：使用Cloudflare+Telegraph搭建零成本图床系统 - 胡萝虎的博客 (huluohu.com)&lt;/a&gt;&lt;/p&gt;
+    &gt;保姆级教程：使用Cloudflare+Telegraph搭建零成本图床系统 - 胡萝虎的博客 (huluohu.com) 
+&lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+    height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+    &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+    &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+        fill=&#34;currentColor&#34;&gt;
+&lt;/svg&gt;&lt;/span&gt;
+
+&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         
