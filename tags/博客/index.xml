@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Watch Your Back</copyright>
-        <lastBuildDate>Fri, 15 Nov 2024 16:50:00 +0000</lastBuildDate><atom:link href="https://worhllo.github.io/hugo-dev/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 16 Nov 2024 05:04:16 +0000</lastBuildDate><atom:link href="https://worhllo.github.io/hugo-dev/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Stack主题美化超级汇总</title>
         <link>https://worhllo.github.io/hugo-dev/p/stack%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E8%B6%85%E7%BA%A7%E6%B1%87%E6%80%BB/</link>
         <pubDate>Thu, 14 Nov 2024 22:47:32 +0800</pubDate>
@@ -1605,7 +1605,7 @@
         <pubDate>Mon, 11 Nov 2024 13:12:41 +0800</pubDate>
         
         <guid>https://worhllo.github.io/hugo-dev/p/hugo-github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/</guid>
-        <description>&lt;img src="https://worhllo.github.io/hugo-dev/p/hugo-github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/12123.jpg" alt="Featured image of post Hugo&#43;Github博客部署" /&gt;&lt;h2 id=&#34;环境准备&#34;&gt;环境准备
+        <description>&lt;img src="https://imgbed.worhllo.us.kg/file/1731733015199_12123.jpg" alt="Featured image of post Hugo&#43;Github博客部署" /&gt;&lt;h2 id=&#34;环境准备&#34;&gt;环境准备
 &lt;/h2&gt;&lt;h3 id=&#34;下载hugo&#34;&gt;下载Hugo
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
