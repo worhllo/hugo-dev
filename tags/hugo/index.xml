@@ -7,13 +7,13 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Watch Your Back</copyright>
-        <lastBuildDate>Sat, 16 Nov 2024 14:23:28 +0000</lastBuildDate><atom:link href="https://worhllo.github.io/hugo-dev/tags/hugo/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 16 Nov 2024 16:56:25 +0000</lastBuildDate><atom:link href="https://worhllo.github.io/hugo-dev/tags/hugo/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>stack主题美化大杂烩</title>
         <link>https://worhllo.github.io/hugo-dev/p/stack%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%A4%A7%E6%9D%82%E7%83%A9/</link>
         <pubDate>Thu, 14 Nov 2024 22:47:32 +0800</pubDate>
         
         <guid>https://worhllo.github.io/hugo-dev/p/stack%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%A4%A7%E6%9D%82%E7%83%A9/</guid>
-        <description>&lt;h2 id=&#34;前言&#34;&gt;前言
+        <description>&lt;img src="https://imgbed.worhllo.us.kg/file/1731767487341_fghffx.png" alt="Featured image of post stack主题美化大杂烩" /&gt;&lt;h2 id=&#34;前言&#34;&gt;前言
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Hugo Stack&lt;/strong&gt; 是一款专为博主设计的卡片风格的 Hugo 主题。它提供了一套丰富的特性集合，包括自动生成目录、本地搜索、代码高亮、图片放大等功能。该主题遵循 MIT 许可证发布，且其标志性的简洁与易用性让它成为众多个人博客的优选方案。详细信息可以通过访问 &lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;GitHub 
