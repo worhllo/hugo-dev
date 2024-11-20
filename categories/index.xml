@@ -7,7 +7,23 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Watch Your Back</copyright>
-        <lastBuildDate>Tue, 19 Nov 2024 16:51:23 +0000</lastBuildDate><atom:link href="https://worhllo.github.io/hugo-dev/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 20 Nov 2024 11:25:47 +0000</lastBuildDate><atom:link href="https://worhllo.github.io/hugo-dev/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Hugo</title>
+        <link>https://worhllo.github.io/hugo-dev/categories/hugo/</link>
+        <pubDate>Wed, 20 Nov 2024 13:31:47 +0800</pubDate>
+        
+        <guid>https://worhllo.github.io/hugo-dev/categories/hugo/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Shortcode</title>
+        <link>https://worhllo.github.io/hugo-dev/categories/shortcode/</link>
+        <pubDate>Wed, 20 Nov 2024 13:31:47 +0800</pubDate>
+        
+        <guid>https://worhllo.github.io/hugo-dev/categories/shortcode/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Cloudflare</title>
         <link>https://worhllo.github.io/hugo-dev/categories/cloudflare/</link>
         <pubDate>Mon, 18 Nov 2024 15:26:15 +0800</pubDate>

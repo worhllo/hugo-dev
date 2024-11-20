@@ -1,0 +1,1622 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="什么是短代码 (shortcodes) 短代码是在内容文件中调用内置或自定义模板的简单片段。位于内容文件中，Hugo将使用预定义的模板来渲染它。短代码可以随时更新以反映新的类、技术或标准。在网站生成时，Hugo的短代码将轻松合并您的更改。\n">
+<title>Shortcode汇总</title>
+
+<link rel='canonical' href='https://worhllo.github.io/hugo-dev/p/shortcode%E6%B1%87%E6%80%BB/'>
+
+<link rel="stylesheet" href="/hugo-dev/scss/style.min.b0985472dd2a95458ae499e890edfa7d255343dc85fdf5d10d3feffcd46c025d.css"><meta property='og:title' content="Shortcode汇总">
+<meta property='og:description' content="什么是短代码 (shortcodes) 短代码是在内容文件中调用内置或自定义模板的简单片段。位于内容文件中，Hugo将使用预定义的模板来渲染它。短代码可以随时更新以反映新的类、技术或标准。在网站生成时，Hugo的短代码将轻松合并您的更改。\n">
+<meta property='og:url' content='https://worhllo.github.io/hugo-dev/p/shortcode%E6%B1%87%E6%80%BB/'>
+<meta property='og:site_name' content='Watch Your Back&#39;s Blog'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='汇总' /><meta property='article:published_time' content='2024-11-20T13:31:47&#43;08:00'/><meta property='article:modified_time' content='2024-11-20T11:25:47&#43;00:00'/>
+<meta name="twitter:title" content="Shortcode汇总">
+<meta name="twitter:description" content="什么是短代码 (shortcodes) 短代码是在内容文件中调用内置或自定义模板的简单片段。位于内容文件中，Hugo将使用预定义的模板来渲染它。短代码可以随时更新以反映新的类、技术或标准。在网站生成时，Hugo的短代码将轻松合并您的更改。\n">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/hugo-dev/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/hugo-dev/img/avatar_hu17068967838911624874.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/hugo-dev">Watch Your Back&#39;s Blog</a></h1>
+            <h2 class="site-description">Email：3292722614@qq.com</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/CaiJimmy/hugo-theme-stack'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/hugo-dev/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/hugo-dev/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/hugo-dev/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/hugo-dev/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/hugo-dev/%E9%93%BE%E6%8E%A5/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>链接</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/hugo-dev/musings/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-infinity" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M9.828 9.172a4 4 0 1 0 0 5.656 a10 10 0 0 0 2.172 -2.828a10 10 0 0 1 2.172 -2.828 a4 4 0 1 1 0 5.656a10 10 0 0 1 -2.172 -2.828a10 10 0 0 0 -2.172 -2.828" />
+</svg>
+
+
+
+                
+                <span>随笔</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#什么是短代码-shortcodes">什么是短代码 (shortcodes)</a></li>
+    <li><a href="#语法">语法</a></li>
+    <li><a href="#汇总">汇总</a>
+      <ol>
+        <li><a href="#高亮">高亮</a></li>
+        <li><a href="#缩写">缩写</a></li>
+        <li><a href="#文本位置">文本位置</a></li>
+        <li><a href="#块引用">块引用</a></li>
+        <li><a href="#35-隐藏">3.5. 隐藏</a></li>
+        <li><a href="#36-标签">3.6. 标签</a></li>
+        <li><a href="#37-音乐">3.7. 音乐</a></li>
+        <li><a href="#38-哔站">3.8. 哔站</a></li>
+        <li><a href="#39-网抑云">3.9. 网抑云</a></li>
+        <li><a href="#310-在博文之间cross-references引用">3.10 在博文之间Cross references引用</a></li>
+      </ol>
+    </li>
+    <li><a href="#本文出处">本文出处</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    
+
+
+<div id="article-content">
+    <article class="main-article">
+	     
+        <header class="article-header">
+
+    <div class="article-details">
+    
+    
+    <header class="article-category">
+        
+            <a href="/hugo-dev/categories/hugo/" >
+                Hugo
+            </a>
+        
+            <a href="/hugo-dev/categories/shortcode/" >
+                Shortcode
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/hugo-dev/p/shortcode%E6%B1%87%E6%80%BB/">Shortcode汇总</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+	    <div class="article-lastmod">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time>
+                    2024-11-20
+                </time>
+            </div>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2024-11-20</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 7 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+	
+	
+
+    
+</div>
+
+</header>
+		<nav class="breadcrumb" aria-label="breadcrumb">
+  <ol class="breadcrumb-list">
+      <li class="breadcrumb-item">
+          <a href="/hugo-dev/">主页</a>
+      </li>
+      <li class="breadcrumb-separator">»</li>
+      <li class="breadcrumb-item">
+          <a href="/hugo-dev/post/">文章列表</a>
+      </li>
+      <li class="breadcrumb-separator">»</li>
+      <li class="breadcrumb-item active">
+          <a href="/hugo-dev/p/shortcode%E6%B1%87%E6%80%BB/" aria-current="location">Shortcode汇总</a>
+      </li>
+  </ol>
+</nav>
+
+        <section class="article-content">
+    
+    
+    
+    <h2 id="什么是短代码-shortcodes">什么是短代码 (shortcodes)
+</h2><p>短代码是在内容文件中调用内置或自定义模板的简单片段。位于内容文件中，Hugo将使用预定义的模板来渲染它。短代码可以随时更新以反映新的类、技术或标准。在网站生成时，Hugo的短代码将轻松合并您的更改。</p>
+<p>请注意，短代码在模板文件中不起作用。如果你需要在模板中提供类似短代码的功能，则要在Hugo根目录下的. <code>/layouts/shortcodes/ </code>创建 <code>shortcodename.html </code>文件， <code>shortcodename </code>为你短代码的名字。</p>
+<h2 id="语法">语法
+</h2><p>这里先写一些Hugo的简单语法😙，如:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{{ index .Params 0 }}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>该代码表达为获取短代码中的第一个参数，</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{{ index .Params 1 }}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>如果是这样，则代表第二个，以此类推。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{{ .Get &#34;text1&#34; }}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>此代码表达为获取参数名为<code>text1</code>的参数，</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{{&lt; myshortscode text=&#34;文本&#34; &gt;}}，
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>如果引用代码如上，那么传入的参数则为“文本”二字。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{{/* .Date.Format ( default &#34;2006-01-02&#34;) */}}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>传入日期则采用以上代码，后面为可以格式化的日期样式。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{{ /*with .Site.Params.footer.customText */}}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>使用上述语句可以引用站点配置文件中定义的变量值。</p>
+<h2 id="汇总">汇总
+</h2><h3 id="高亮">高亮
+</h3><ul>
+<li>创建方法<br>
+创建<code>mark.html</code>文件，其中内容编写：</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;mark&gt;{{ .Get &#34;text&#34; }}&lt;/mark&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>样式<br>
+<mark>这是一个重点标记</mark>
+</li>
+<li>更多<br>
+这样一个简单的短代码便实现啦，但默认的高亮为荧光黄色，看起来有点刺眼，那么可以在<code>./assets/scss/custom.css</code>中增加mark标记的样式，代码如下。</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">mark{
+</span></span><span class="line"><span class="cl">    background: hsla(332, 81%, 58%, 0.879);
+</span></span><span class="line"><span class="cl">}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>使用模板<br>
+{{&lt; mark text=&ldquo;这是一个重点标记&rdquo; &gt;}}</li>
+</ul>
+<h3 id="缩写">缩写
+</h3><ul>
+<li>创建方法<br>
+创建<code>abbr.html</code>文件，其中内容编写：</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;abbr title=&#34;{{ .Get &#34;title&#34; }}&#34;&gt;{{ .Get &#34;text&#34; }}&lt;/abbr&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>样式<br>
+<abbr title="这里有着非常非常非常非常非常非常非常非常长的缩写内容~">缩写的文本</abbr>
+</li>
+<li>使用模板<br>
+{{&lt; abbr title=&ldquo;这里有着非常非常非常非常非常非常非常非常长的缩写内容~&rdquo; text=&ldquo;缩写的文本&rdquo; &gt;}}</li>
+</ul>
+<h3 id="文本位置">文本位置
+</h3><ul>
+<li>创建方法
+创建<code>align.html</code>文件，其中内容编写：</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;p style=&#34;text-align:{{ index .Params 0 }}&#34;&gt;{{ index .Params 1 | markdownify }}&lt;/p&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>样式<br>
+<p style="text-align:center">文字居中</p>
+</li>
+<li>更多<br>
+理解起来也非常简单😘，首先<code>align.html</code>内容为一段html5编码，p标签为段落，我们要实现的自由变动文本位置需要使用css样式text-align，这里能用的参数有：center、left、right。</li>
+<li>使用模板<br>
+{{&lt; align center &ldquo;文字居中&rdquo; &gt;}}</li>
+</ul>
+<h3 id="块引用">块引用
+</h3><ul>
+<li>创建方法<br>
+创建<code>blockquote.html</code>文件，拷贝以下内容。</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span><span class="lnt">58
+</span><span class="lnt">59
+</span><span class="lnt">60
+</span><span class="lnt">61
+</span><span class="lnt">62
+</span><span class="lnt">63
+</span><span class="lnt">64
+</span><span class="lnt">65
+</span><span class="lnt">66
+</span><span class="lnt">67
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="o">&lt;!--</span> <span class="n">reset</span> <span class="n">scratch</span> <span class="n">variables</span> <span class="n">at</span> <span class="n">the</span> <span class="n">start</span> <span class="o">--&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">{{</span> <span class="o">$.</span><span class="n">Scratch</span><span class="o">.</span><span class="n">Set</span> <span class="s2">&#34;bl_author&#34;</span> <span class="bp">false</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl"><span class="p">{{</span> <span class="o">$.</span><span class="n">Scratch</span><span class="o">.</span><span class="n">Set</span> <span class="s2">&#34;bl_source&#34;</span> <span class="bp">false</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl"><span class="p">{{</span> <span class="o">$.</span><span class="n">Scratch</span><span class="o">.</span><span class="n">Set</span> <span class="s2">&#34;bl_link&#34;</span> <span class="bp">false</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl"><span class="p">{{</span> <span class="o">$.</span><span class="n">Scratch</span><span class="o">.</span><span class="n">Set</span> <span class="s2">&#34;bl_title&#34;</span> <span class="bp">false</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">{{</span> <span class="k">if</span> <span class="o">.</span><span class="n">IsNamedParams</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{{</span> <span class="o">$.</span><span class="n">Scratch</span><span class="o">.</span><span class="n">Set</span> <span class="s2">&#34;bl_author&#34;</span> <span class="p">(</span><span class="o">.</span><span class="n">Get</span> <span class="s2">&#34;author&#34;</span><span class="p">)</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{{</span> <span class="o">$.</span><span class="n">Scratch</span><span class="o">.</span><span class="n">Set</span> <span class="s2">&#34;bl_source&#34;</span> <span class="p">(</span><span class="o">.</span><span class="n">Get</span> <span class="s2">&#34;source&#34;</span><span class="p">)</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{{</span> <span class="o">$.</span><span class="n">Scratch</span><span class="o">.</span><span class="n">Set</span> <span class="s2">&#34;bl_link&#34;</span> <span class="p">(</span><span class="o">.</span><span class="n">Get</span> <span class="s2">&#34;link&#34;</span><span class="p">)</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{{</span> <span class="o">$.</span><span class="n">Scratch</span><span class="o">.</span><span class="n">Set</span> <span class="s2">&#34;bl_title&#34;</span> <span class="p">(</span><span class="o">.</span><span class="n">Get</span> <span class="s2">&#34;title&#34;</span><span class="p">)</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl"><span class="p">{{</span> <span class="k">else</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl">  <span class="o">&lt;!--</span> <span class="k">for</span> <span class="n">the</span> <span class="n">positional</span> <span class="n">version</span> <span class="k">if</span> <span class="n">any</span> <span class="o">--&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">{{</span> <span class="n">end</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">&lt;!--</span> <span class="k">if</span> <span class="n">title</span> <span class="n">is</span> <span class="ow">not</span> <span class="n">set</span> <span class="n">explicitly</span> <span class="n">then</span> <span class="n">we</span> <span class="n">need</span> <span class="n">to</span> <span class="n">beautify</span> <span class="n">the</span> <span class="n">link</span>
+</span></span><span class="line"><span class="cl">     <span class="k">if</span> <span class="n">length</span> <span class="n">of</span> <span class="n">link</span> <span class="n">is</span> <span class="n">more</span> <span class="n">than</span> <span class="mi">32</span> <span class="n">chars</span><span class="p">,</span> <span class="n">we</span> <span class="n">will</span> <span class="n">cut</span> <span class="n">it</span> <span class="n">off</span> <span class="n">by</span> <span class="mi">32</span> <span class="ow">and</span>
+</span></span><span class="line"><span class="cl">     <span class="n">then</span> <span class="n">drop</span> <span class="n">everything</span> <span class="n">after</span> <span class="n">the</span> <span class="n">last</span> <span class="o">/</span> <span class="k">if</span> <span class="n">any</span> <span class="ow">and</span> <span class="n">put</span> <span class="n">it</span> <span class="ow">in</span> <span class="n">into</span> <span class="n">title</span> <span class="o">--&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">{{</span> <span class="n">with</span> <span class="o">$.</span><span class="n">Scratch</span><span class="o">.</span><span class="n">Get</span> <span class="s2">&#34;bl_title&#34;</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl">  <span class="o">&lt;!--</span> <span class="k">do</span> <span class="n">nothing</span> <span class="o">--&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">{{</span> <span class="k">else</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{{</span> <span class="n">with</span> <span class="o">$.</span><span class="n">Scratch</span><span class="o">.</span><span class="n">Get</span> <span class="s2">&#34;bl_link&#34;</span> <span class="p">}}</span>    <span class="o">&lt;!--</span> <span class="k">if</span> <span class="n">link</span> <span class="n">is</span> <span class="n">given</span> <span class="o">--&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{{</span> <span class="nb">range</span> <span class="n">last</span> <span class="mi">1</span> <span class="p">(</span><span class="n">split</span> <span class="p">(</span><span class="o">$.</span><span class="n">Scratch</span><span class="o">.</span><span class="n">Get</span> <span class="s2">&#34;bl_link&#34;</span> <span class="p">)</span> <span class="s2">&#34;://&#34;</span><span class="p">)</span> <span class="p">}}</span>  <span class="o">&lt;!--</span> <span class="n">split</span> <span class="n">by</span> <span class="p">:</span><span class="o">//</span> <span class="ow">and</span> <span class="n">then</span> <span class="n">only</span> <span class="n">take</span> <span class="n">the</span> <span class="n">items</span> <span class="n">after</span> <span class="n">it</span> <span class="n">to</span> <span class="n">remove</span> <span class="n">protocol</span><span class="p">:</span><span class="o">//</span> <span class="o">--&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{{</span> <span class="o">$.</span><span class="n">Scratch</span><span class="o">.</span><span class="n">Set</span> <span class="s2">&#34;title_without_protocol&#34;</span> <span class="o">.</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{{</span> <span class="n">end</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{{</span> <span class="nb">range</span> <span class="n">last</span> <span class="mi">1</span> <span class="p">(</span><span class="n">split</span> <span class="p">(</span><span class="o">$.</span><span class="n">Scratch</span><span class="o">.</span><span class="n">Get</span> <span class="s2">&#34;title_without_protocol&#34;</span> <span class="p">)</span> <span class="s2">&#34;www.&#34;</span><span class="p">)</span>  <span class="p">}}</span> <span class="o">&lt;!--</span> <span class="n">also</span> <span class="n">remove</span> <span class="n">the</span> <span class="n">www</span><span class="o">.</span> <span class="n">at</span> <span class="n">the</span> <span class="n">start</span> <span class="k">if</span> <span class="n">any</span><span class="o">.</span> <span class="n">we</span> <span class="n">are</span> <span class="n">using</span> <span class="n">a</span> <span class="n">second</span> <span class="n">split</span> <span class="n">because</span> <span class="n">all</span> <span class="n">URLS</span> <span class="n">may</span> <span class="ow">not</span> <span class="n">start</span> <span class="n">with</span> <span class="n">it</span> <span class="o">--&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{{</span> <span class="o">$.</span><span class="n">Scratch</span><span class="o">.</span><span class="n">Set</span> <span class="s2">&#34;title_without_protocol&#34;</span> <span class="o">.</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{{</span> <span class="n">end</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{{</span> <span class="o">$.</span><span class="n">Scratch</span><span class="o">.</span><span class="n">Set</span> <span class="s2">&#34;bl_title&#34;</span> <span class="p">(</span><span class="o">$.</span><span class="n">Scratch</span><span class="o">.</span><span class="n">Get</span> <span class="s2">&#34;title_without_protocol&#34;</span><span class="p">)</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;!--</span> <span class="k">if</span> <span class="n">link</span> <span class="n">is</span> <span class="n">longer</span> <span class="n">than</span> <span class="mi">32</span> <span class="n">bytes</span> <span class="n">we</span> <span class="n">should</span> <span class="n">trim</span> <span class="n">it</span> <span class="o">--&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{{</span> <span class="k">if</span> <span class="p">(</span><span class="n">gt</span> <span class="p">(</span><span class="n">len</span> <span class="p">(</span><span class="o">$.</span><span class="n">Scratch</span><span class="o">.</span><span class="n">Get</span> <span class="s2">&#34;title_without_protocol&#34;</span><span class="p">)</span> <span class="p">)</span> <span class="mi">32</span><span class="p">)</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{{</span> <span class="o">$</span><span class="n">title</span> <span class="p">:</span><span class="o">=</span> <span class="p">(</span><span class="n">slicestr</span> <span class="p">(</span><span class="o">$.</span><span class="n">Scratch</span><span class="o">.</span><span class="n">Get</span> <span class="s2">&#34;title_without_protocol&#34;</span><span class="p">)</span> <span class="mi">0</span> <span class="mi">32</span><span class="p">)</span> <span class="p">}}</span>   <span class="o">&lt;!--</span> <span class="n">get</span> <span class="n">the</span> <span class="n">first</span> <span class="mi">32</span> <span class="n">characters</span> <span class="n">of</span> <span class="n">title_without_protocol</span> <span class="o">--&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{{</span> <span class="o">$</span><span class="n">split_by_fw_slash</span> <span class="p">:</span><span class="o">=</span> <span class="n">split</span> <span class="o">$</span><span class="n">title</span> <span class="s2">&#34;/&#34;</span> <span class="p">}}</span>   <span class="o">&lt;!--</span> <span class="n">now</span> <span class="n">split</span> <span class="n">on</span> <span class="o">/</span> <span class="n">because</span> <span class="n">we</span> <span class="n">want</span> <span class="n">to</span> <span class="n">stop</span> <span class="n">after</span> <span class="n">the</span> <span class="n">last</span> <span class="n">forward</span> <span class="n">slash</span> <span class="o">--&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{{</span> <span class="o">$</span><span class="n">count</span> <span class="p">:</span><span class="o">=</span> <span class="p">(</span><span class="n">sub</span> <span class="p">(</span><span class="n">len</span> <span class="o">$</span><span class="n">split_by_fw_slash</span><span class="p">)</span> <span class="mi">1</span><span class="p">)</span> <span class="p">}}</span>   <span class="o">&lt;!--</span> <span class="n">we</span> <span class="n">want</span> <span class="n">everything</span> <span class="n">but</span> <span class="n">the</span> <span class="n">last</span> <span class="n">part</span> <span class="n">so</span> <span class="n">we</span> <span class="n">adjust</span> <span class="n">the</span> <span class="n">count</span> <span class="n">accordingly</span> <span class="o">--&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">      <span class="p">{{</span> <span class="o">$.</span><span class="n">Scratch</span><span class="o">.</span><span class="n">Set</span> <span class="s2">&#34;tempstring&#34;</span> <span class="s2">&#34;&#34;</span> <span class="p">}}</span>   <span class="o">&lt;!--</span> <span class="n">temp</span> <span class="n">variable</span> <span class="n">to</span> <span class="n">hold</span> <span class="n">the</span> <span class="n">concatinated</span> <span class="n">string</span> <span class="o">--&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{{</span> <span class="nb">range</span> <span class="n">first</span> <span class="o">$</span><span class="n">count</span> <span class="o">$</span><span class="n">split_by_fw_slash</span>  <span class="p">}}</span>  <span class="o">&lt;!--</span> <span class="n">loop</span> <span class="n">through</span> <span class="n">all</span> <span class="n">parts</span> <span class="n">except</span> <span class="n">last</span> <span class="ow">and</span> <span class="n">concat</span> <span class="n">them</span> <span class="p">(</span><span class="n">add</span> <span class="o">/</span> <span class="n">between</span> <span class="n">halves</span><span class="p">)</span> <span class="o">--&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{{</span> <span class="o">$.</span><span class="n">Scratch</span><span class="o">.</span><span class="n">Set</span> <span class="s2">&#34;tempstring&#34;</span> <span class="p">(</span> <span class="o">.</span> <span class="o">|</span> <span class="n">printf</span> <span class="s2">&#34;</span><span class="si">%s%s</span><span class="s2">/&#34;</span> <span class="p">(</span><span class="o">$.</span><span class="n">Scratch</span><span class="o">.</span><span class="n">Get</span> <span class="s2">&#34;tempstring&#34;</span><span class="p">)</span> <span class="o">|</span> <span class="n">printf</span> <span class="s2">&#34;</span><span class="si">%s</span><span class="s2">&#34;</span> <span class="p">)</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{{</span> <span class="n">end</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{{</span> <span class="o">$.</span><span class="n">Scratch</span><span class="o">.</span><span class="n">Set</span> <span class="s2">&#34;bl_title&#34;</span> <span class="p">(</span> <span class="n">printf</span> <span class="s2">&#34;</span><span class="si">%s</span><span class="s2">...&#34;</span> <span class="p">(</span><span class="o">$.</span><span class="n">Scratch</span><span class="o">.</span><span class="n">Get</span> <span class="s2">&#34;tempstring&#34;</span><span class="p">)</span> <span class="o">|</span> <span class="n">printf</span> <span class="s2">&#34;</span><span class="si">%s</span><span class="s2">&#34;</span> <span class="p">)</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{{</span> <span class="n">end</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{{</span> <span class="n">end</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl"><span class="p">{{</span> <span class="n">end</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">&lt;</span><span class="n">blockquote</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span><span class="p">{{</span> <span class="o">.</span><span class="n">Inner</span> <span class="o">|</span> <span class="n">markdownify</span> <span class="p">}}</span><span class="o">&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="o">&lt;</span><span class="n">footer</span> <span class="n">style</span><span class="o">=</span><span class="s2">&#34;text-align:right&#34;</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">&lt;</span><span class="n">strong</span><span class="o">&gt;</span><span class="p">{{</span> <span class="n">with</span> <span class="o">$.</span><span class="n">Scratch</span><span class="o">.</span><span class="n">Get</span> <span class="s2">&#34;bl_author&#34;</span> <span class="p">}}{{</span> <span class="o">.</span> <span class="p">}}{{</span> <span class="n">end</span> <span class="p">}}</span><span class="o">&lt;/</span><span class="n">strong</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{{</span> <span class="n">with</span> <span class="o">$.</span><span class="n">Scratch</span><span class="o">.</span><span class="n">Get</span> <span class="s2">&#34;bl_source&#34;</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl">      <span class="o">&lt;</span><span class="n">cite</span><span class="o">&gt;</span><span class="p">{{</span> <span class="o">.</span> <span class="p">}}</span><span class="o">&lt;/</span><span class="n">cite</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{{</span> <span class="k">else</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{{</span> <span class="n">with</span> <span class="o">$.</span><span class="n">Scratch</span><span class="o">.</span><span class="n">Get</span> <span class="s2">&#34;bl_link&#34;</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl">        <span class="o">&lt;</span><span class="n">cite</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">          <span class="o">&lt;</span><span class="n">a</span> <span class="n">href</span><span class="o">=</span><span class="s2">&#34;{{ . }}&#34;</span> <span class="n">title</span><span class="o">=</span><span class="s2">&#34;{{ . }}&#34;</span> <span class="n">rel</span><span class="o">=</span><span class="s2">&#34;noopener noreferrer&#34;</span><span class="o">&gt;</span><span class="p">{{</span> <span class="o">$.</span><span class="n">Scratch</span><span class="o">.</span><span class="n">Get</span> <span class="s2">&#34;bl_title&#34;</span> <span class="p">}}</span><span class="o">&lt;/</span><span class="n">a</span><span class="o">&gt;</span> <span class="o">&lt;!--</span> <span class="n">can</span><span class="s1">&#39;t have new lines here --&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="o">&lt;/</span><span class="n">cite</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{{</span> <span class="k">else</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{{</span> <span class="n">with</span> <span class="o">$.</span><span class="n">Scratch</span><span class="o">.</span><span class="n">Get</span> <span class="s2">&#34;bl_title&#34;</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl">          <span class="o">&lt;</span><span class="n">cite</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">{{</span> <span class="o">$.</span><span class="n">Scratch</span><span class="o">.</span><span class="n">Get</span> <span class="s2">&#34;bl_title&#34;</span> <span class="p">}}</span><span class="o">&lt;/</span><span class="n">a</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">          <span class="o">&lt;/</span><span class="n">cite</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{{</span> <span class="n">end</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{{</span> <span class="n">end</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{{</span> <span class="n">end</span> <span class="p">}}</span>
+</span></span><span class="line"><span class="cl">  <span class="o">&lt;/</span><span class="n">footer</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="o">&lt;/</span><span class="n">blockquote</span><span class="o">&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>样式<br>
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+<blockquote>
+  <p>死亡不是一切的终点，遗忘才是。</p>
+  <footer style="text-align:right">
+    <strong>电影</strong>
+    
+      
+        <cite>
+          <a href="https://irithys.com" title="https://irithys.com" rel="noopener noreferrer">《寻梦环游记》</a> 
+        </cite>
+      
+    
+  </footer>
+</blockquote>
+</li>
+<li>使用模板<br>
+{{&lt; blockquote author=&ldquo;电影&rdquo; link=&ldquo;<a class="link" href="https://irithys.com"  target="_blank" rel="noopener"
+    >https://irithys.com 
+<span style="white-space: nowrap;"><svg width=".7em"
+    height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+    <path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+    <path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+        fill="currentColor">
+</svg></span>
+
+</a>&rdquo; title=&quot;《寻梦环游记》&quot; &gt;}}
+死亡不是一切的终点，遗忘才是
+{{&lt; /blockquote &gt;}}</li>
+</ul>
+<h3 id="35-隐藏">3.5. 隐藏
+</h3><ul>
+<li>方法<br>
+创建<code>detail.html</code>文件，拷贝其中内容：</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;details&gt;
+</span></span><span class="line"><span class="cl">    &lt;summary&gt;{{ (.Get 0) | markdownify }}&lt;/summary&gt;
+</span></span><span class="line"><span class="cl">    {{ .Inner | markdownify }}
+</span></span><span class="line"><span class="cl">&lt;/details&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>样式<br>
+<details>
+    <summary>点下我呀🎁</summary>
+    对看到这行文字的人报以深切的祝福🥰！
+</details>
+</li>
+<li>使用模板<br>
+{{&lt; detail &ldquo;点下我呀🎁&rdquo; &gt;}}
+对看到这行文字的人报以深切的祝福！🥰
+{{&lt; /detail &gt;}}</li>
+</ul>
+<h3 id="36-标签">3.6. 标签
+</h3><ul>
+<li>创建方法<br>
+创建<code>notice.html</code>文件，拷贝以下内容：</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{{- $noticeType := .Get 0 -}}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">{{- $raw := (markdownify .Inner | chomp) -}}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">{{- $block := findRE &#34;(?is)^&lt;(?:address|article|aside|blockquote|canvas|dd|div|dl|dt|fieldset|figcaption|figure|footer|form|h(?:1|2|3|4|5|6)|header|hgroup|hr|li|main|nav|noscript|ol|output|p|pre|section|table|tfoot|ul|video)\\b&#34; $raw 1 -}}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">{{ $icon := (replace (index $.Site.Data.SVG $noticeType) &#34;icon&#34; &#34;icon notice-icon&#34;) }}
+</span></span><span class="line"><span class="cl">&lt;div class=&#34;notice {{ $noticeType }}&#34; {{ if len .Params | eq 2 }} id=&#34;{{ .Get 1 }}&#34; {{ end }}&gt;
+</span></span><span class="line"><span class="cl">    &lt;div class=&#34;notice-title&#34;&gt;{{ $icon | safeHTML }}&lt;/div&gt;
+</span></span><span class="line"><span class="cl">    {{- if or $block (not $raw) }}{{ $raw }}{{ else }}&lt;p&gt;{{ $raw }}&lt;/p&gt;{{ end -}}
+</span></span><span class="line"><span class="cl">&lt;/div&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>在<code>/assets/scss/custom.scss</code>中新加入以下样式：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span><span class="lnt">58
+</span><span class="lnt">59
+</span><span class="lnt">60
+</span><span class="lnt">61
+</span><span class="lnt">62
+</span><span class="lnt">63
+</span><span class="lnt">64
+</span><span class="lnt">65
+</span><span class="lnt">66
+</span><span class="lnt">67
+</span><span class="lnt">68
+</span><span class="lnt">69
+</span><span class="lnt">70
+</span><span class="lnt">71
+</span><span class="lnt">72
+</span><span class="lnt">73
+</span><span class="lnt">74
+</span><span class="lnt">75
+</span><span class="lnt">76
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">.notice {
+</span></span><span class="line"><span class="cl">  position:relative;
+</span></span><span class="line"><span class="cl">  padding: 1em 1em 1em 2.5em;
+</span></span><span class="line"><span class="cl">  margin-bottom: 1em;
+</span></span><span class="line"><span class="cl">  border-radius: 4px;
+</span></span><span class="line"><span class="cl">  p:last-child {
+</span></span><span class="line"><span class="cl">      margin-bottom: 0;
+</span></span><span class="line"><span class="cl">  }
+</span></span><span class="line"><span class="cl">  .notice-title {
+</span></span><span class="line"><span class="cl">      position: absolute;
+</span></span><span class="line"><span class="cl">      left: 0.8em;
+</span></span><span class="line"><span class="cl">      .notice-icon {
+</span></span><span class="line"><span class="cl">          width: 1.2em;
+</span></span><span class="line"><span class="cl">          height: 1.2em;
+</span></span><span class="line"><span class="cl">      }
+</span></span><span class="line"><span class="cl">  }
+</span></span><span class="line"><span class="cl">  &amp;.notice-warning {
+</span></span><span class="line"><span class="cl">      background: hsla(0, 65%, 65%, 0.15);
+</span></span><span class="line"><span class="cl">      border-left: 5px solid hsl(0, 65%, 65%);
+</span></span><span class="line"><span class="cl">      .notice-title {
+</span></span><span class="line"><span class="cl">          color: hsl(0, 65%, 65%);
+</span></span><span class="line"><span class="cl">      }
+</span></span><span class="line"><span class="cl">  }
+</span></span><span class="line"><span class="cl">  &amp;.notice-info {
+</span></span><span class="line"><span class="cl">      background: hsla(30, 80%, 70%, 0.15);
+</span></span><span class="line"><span class="cl">      border-left: 5px solid hsl(30, 80%, 70%);
+</span></span><span class="line"><span class="cl">      .notice-title {
+</span></span><span class="line"><span class="cl">          color: hsl(30, 80%, 70%);
+</span></span><span class="line"><span class="cl">      }
+</span></span><span class="line"><span class="cl">  }
+</span></span><span class="line"><span class="cl">  &amp;.notice-note {
+</span></span><span class="line"><span class="cl">      background: hsla(200, 65%, 65%, 0.15);
+</span></span><span class="line"><span class="cl">      border-left: 5px solid hsl(200, 65%, 65%);
+</span></span><span class="line"><span class="cl">      .notice-title {
+</span></span><span class="line"><span class="cl">          color: hsl(200, 65%, 65%);
+</span></span><span class="line"><span class="cl">      }
+</span></span><span class="line"><span class="cl">  }
+</span></span><span class="line"><span class="cl">  &amp;.notice-tip {
+</span></span><span class="line"><span class="cl">      background: hsla(140, 65%, 65%, 0.15);
+</span></span><span class="line"><span class="cl">      border-left: 5px solid hsl(140, 65%, 65%);
+</span></span><span class="line"><span class="cl">      .notice-title {
+</span></span><span class="line"><span class="cl">          color: hsl(140, 65%, 65%);
+</span></span><span class="line"><span class="cl">      }
+</span></span><span class="line"><span class="cl">  }
+</span></span><span class="line"><span class="cl">}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">[data-theme=&#34;dark&#34;] .notice {
+</span></span><span class="line"><span class="cl">  &amp;.notice-warning {
+</span></span><span class="line"><span class="cl">      background: hsla(0, 25%, 35%, 0.15);
+</span></span><span class="line"><span class="cl">      border-left: 5px solid hsl(0, 25%, 35%);
+</span></span><span class="line"><span class="cl">      .notice-title {
+</span></span><span class="line"><span class="cl">          color: hsl(0, 25%, 35%);
+</span></span><span class="line"><span class="cl">      }
+</span></span><span class="line"><span class="cl">  }
+</span></span><span class="line"><span class="cl">  &amp;.notice-info {
+</span></span><span class="line"><span class="cl">      background: hsla(30, 25%, 35%, 0.15);
+</span></span><span class="line"><span class="cl">      border-left: 5px solid hsl(30, 25%, 35%);
+</span></span><span class="line"><span class="cl">      .notice-title {
+</span></span><span class="line"><span class="cl">          color: hsl(30, 25%, 35%);
+</span></span><span class="line"><span class="cl">      }
+</span></span><span class="line"><span class="cl">  }
+</span></span><span class="line"><span class="cl">  &amp;.notice-note {
+</span></span><span class="line"><span class="cl">      background: hsla(200, 25%, 35%, 0.15);
+</span></span><span class="line"><span class="cl">      border-left: 5px solid hsl(200, 25%, 35%);
+</span></span><span class="line"><span class="cl">      .notice-title {
+</span></span><span class="line"><span class="cl">          color: hsl(200, 25%, 35%);
+</span></span><span class="line"><span class="cl">      }
+</span></span><span class="line"><span class="cl">  }
+</span></span><span class="line"><span class="cl">  &amp;.notice-tip {
+</span></span><span class="line"><span class="cl">      background: hsla(140, 25%, 35%, 0.15);
+</span></span><span class="line"><span class="cl">      border-left: 5px solid hsl(140, 25%, 35%);
+</span></span><span class="line"><span class="cl">      .notice-title {
+</span></span><span class="line"><span class="cl">          color: hsl(140, 25%, 35%);
+</span></span><span class="line"><span class="cl">      }
+</span></span><span class="line"><span class="cl">  }
+</span></span><span class="line"><span class="cl">}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>样式<br>
+样式一，警告：
+
+<div class="notice notice-warning" >
+    <div class="notice-title"></div><p>警告！这个标签太好看了，我忍不住分享。</p></div>
+
+样式二，信息：
+
+<div class="notice notice-info" >
+    <div class="notice-title"></div><p>明确的爱，直接的厌恶，真诚的喜欢。站在太阳下的坦荡，大声无愧地称赞自己。</p></div>
+
+样式三，贴条：
+
+<div class="notice notice-tip" >
+    <div class="notice-title"></div><p>遇到一些需要做提示性语句的位置，可以贴个条。</p></div>
+
+样式四，注释：
+
+<div class="notice notice-note" >
+    <div class="notice-title"></div><p>我想要的不是解释，而是注释。</p></div>
+</li>
+<li>使用模板<br>
+{{&lt; notice notice-warning &gt;}}
+警告！这个标签太好看了，我忍不住分享。
+{{&lt; /notice &gt;}}</li>
+</ul>
+<h3 id="37-音乐">3.7. 音乐
+</h3><ul>
+<li>创建方法</li>
+</ul>
+<ol>
+<li>打开根目录的<code>config.yaml</code>文件，修改以下内容：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">markup:
+</span></span><span class="line"><span class="cl">    goldmark:
+</span></span><span class="line"><span class="cl">        renderer:
+</span></span><span class="line"><span class="cl">            unsafe: true
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="2">
+<li>新建music.html文件夹，拷贝以下内容</li>
+</ol>
+<!-- require APlayer -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+<style type="text/css">.dark-theme .aplayer{background:#212121}.dark-theme .aplayer.aplayer-withlist .aplayer-info{border-bottom-color:#5c5c5c}.dark-theme .aplayer.aplayer-fixed .aplayer-list{border-color:#5c5c5c}.dark-theme .aplayer .aplayer-body{background-color:#212121}.dark-theme .aplayer .aplayer-info{border-top-color:#212121}.dark-theme .aplayer .aplayer-info .aplayer-music .aplayer-title{color:#fff}.dark-theme .aplayer .aplayer-info .aplayer-music .aplayer-author{color:#fff}.dark-theme .aplayer .aplayer-info .aplayer-controller .aplayer-time{color:#eee}.dark-theme .aplayer .aplayer-info .aplayer-controller .aplayer-time .aplayer-icon path{fill:#eee}.dark-theme .aplayer .aplayer-list{background-color:#212121}.dark-theme .aplayer .aplayer-list::-webkit-scrollbar-thumb{background-color:#999}.dark-theme .aplayer .aplayer-list::-webkit-scrollbar-thumb:hover{background-color:#bbb}.dark-theme .aplayer .aplayer-list li{color:#fff;border-top-color:#666}.dark-theme .aplayer .aplayer-list li:hover{background:#4e4e4e}.dark-theme .aplayer .aplayer-list li.aplayer-list-light{background:#6c6c6c}.dark-theme .aplayer .aplayer-list li .aplayer-list-index{color:#ddd}.dark-theme .aplayer .aplayer-list li .aplayer-list-author{color:#ddd}.dark-theme .aplayer .aplayer-lrc{text-shadow:-1px -1px 0 #666}.dark-theme .aplayer .aplayer-lrc:before{background:-moz-linear-gradient(top, #212121 0%, rgba(33,33,33,0) 100%);background:-webkit-linear-gradient(top, #212121 0%, rgba(33,33,33,0) 100%);background:linear-gradient(to bottom, #212121 0%, rgba(33,33,33,0) 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#212121', endColorstr='#00212121',GradientType=0 )}.dark-theme .aplayer .aplayer-lrc:after{background:-moz-linear-gradient(top, rgba(33,33,33,0) 0%, rgba(33,33,33,0.8) 100%);background:-webkit-linear-gradient(top, rgba(33,33,33,0) 0%, rgba(33,33,33,0.8) 100%);background:linear-gradient(to bottom, rgba(33,33,33,0) 0%, rgba(33,33,33,0.8) 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#00212121', endColorstr='#cc212121',GradientType=0 )}.dark-theme .aplayer .aplayer-lrc p{color:#fff}.dark-theme .aplayer .aplayer-miniswitcher{background:#484848}.dark-theme .aplayer .aplayer-miniswitcher .aplayer-icon path{fill:#eee}</style>
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+<!-- require MetingJS -->
+<script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
+<!-- 注意！！我因为APlayer与meting-js都是以插件形式引入的，所以不需要写上面这些 -->
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{{ if .IsNamedParams }}
+</span></span><span class="line"><span class="cl">    &lt;meting-js
+</span></span><span class="line"><span class="cl">      id=&#34;{{ .Get &#34;id&#34; }}&#34;
+</span></span><span class="line"><span class="cl">      server=&#34;{{ .Get &#34;server&#34; }}&#34;
+</span></span><span class="line"><span class="cl">      type=&#34;{{ .Get &#34;type&#34; }}&#34;
+</span></span><span class="line"><span class="cl">      fixed=&#34;{{ if .Get &#34;fixed&#34; }}{{ .Get &#34;fixed&#34; }}{{ else }}false{{ end }}&#34;
+</span></span><span class="line"><span class="cl">      mini=&#34;{{ if .Get &#34;mini&#34; }}{{ .Get &#34;mini&#34; }}{{ else }}false{{ end }}&#34;
+</span></span><span class="line"><span class="cl">      autoplay=&#34;{{ if .Get &#34;autoplay&#34; }}{{ .Get &#34;autoplay&#34; }}{{ else }}false{{ end }}&#34;
+</span></span><span class="line"><span class="cl">      loop=&#34;{{ if .Get &#34;loop&#34; }}{{ .Get &#34;loop&#34; }}{{ else }}none{{ end }}&#34;
+</span></span><span class="line"><span class="cl">      theme=&#34;{{ if .Get &#34;autoplay&#34; }}{{ .Get &#34;autoplay&#34; }}{{ else }}#255579{{ end }}&#34;
+</span></span><span class="line"><span class="cl">      volume=&#34;{{ if .Get &#34;volume&#34; }}{{ .Get &#34;volume&#34; }}{{ else }}0.6{{ end }}&#34;
+</span></span><span class="line"><span class="cl">      prelosd=&#34;{{ if .Get &#34;prelosd&#34; }}{{ .Get &#34;prelosd&#34; }}{{ else }}auto{{ end }}&#34;
+</span></span><span class="line"><span class="cl">      mutex=&#34;{{ if .Get &#34;mutex&#34; }}{{ .Get &#34;mutex&#34; }}{{ else }}true{{ end }}&#34;
+</span></span><span class="line"><span class="cl">      list-folded=&#34;{{ if .Get &#34;list-folded&#34; }}{{ .Get &#34;list-folded&#34; }}{{ else }}true{{ end }}&#34;&gt;
+</span></span><span class="line"><span class="cl">    &lt;/meting-js&gt;
+</span></span><span class="line"><span class="cl">{{ end }}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>样式<br>
+
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+ <style type="text/css">.dark-theme .aplayer{background:#212121}.dark-theme .aplayer.aplayer-withlist .aplayer-info{border-bottom-color:#5c5c5c}.dark-theme .aplayer.aplayer-fixed .aplayer-list{border-color:#5c5c5c}.dark-theme .aplayer .aplayer-body{background-color:#212121}.dark-theme .aplayer .aplayer-info{border-top-color:#212121}.dark-theme .aplayer .aplayer-info .aplayer-music .aplayer-title{color:#fff}.dark-theme .aplayer .aplayer-info .aplayer-music .aplayer-author{color:#fff}.dark-theme .aplayer .aplayer-info .aplayer-controller .aplayer-time{color:#eee}.dark-theme .aplayer .aplayer-info .aplayer-controller .aplayer-time .aplayer-icon path{fill:#eee}.dark-theme .aplayer .aplayer-list{background-color:#212121}.dark-theme .aplayer .aplayer-list::-webkit-scrollbar-thumb{background-color:#999}.dark-theme .aplayer .aplayer-list::-webkit-scrollbar-thumb:hover{background-color:#bbb}.dark-theme .aplayer .aplayer-list li{color:#fff;border-top-color:#666}.dark-theme .aplayer .aplayer-list li:hover{background:#4e4e4e}.dark-theme .aplayer .aplayer-list li.aplayer-list-light{background:#6c6c6c}.dark-theme .aplayer .aplayer-list li .aplayer-list-index{color:#ddd}.dark-theme .aplayer .aplayer-list li .aplayer-list-author{color:#ddd}.dark-theme .aplayer .aplayer-lrc{text-shadow:-1px -1px 0 #666}.dark-theme .aplayer .aplayer-lrc:before{background:-moz-linear-gradient(top, #212121 0%, rgba(33,33,33,0) 100%);background:-webkit-linear-gradient(top, #212121 0%, rgba(33,33,33,0) 100%);background:linear-gradient(to bottom, #212121 0%, rgba(33,33,33,0) 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#212121', endColorstr='#00212121',GradientType=0 )}.dark-theme .aplayer .aplayer-lrc:after{background:-moz-linear-gradient(top, rgba(33,33,33,0) 0%, rgba(33,33,33,0.8) 100%);background:-webkit-linear-gradient(top, rgba(33,33,33,0) 0%, rgba(33,33,33,0.8) 100%);background:linear-gradient(to bottom, rgba(33,33,33,0) 0%, rgba(33,33,33,0.8) 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#00212121', endColorstr='#cc212121',GradientType=0 )}.dark-theme .aplayer .aplayer-lrc p{color:#fff}.dark-theme .aplayer .aplayer-miniswitcher{background:#484848}.dark-theme .aplayer .aplayer-miniswitcher .aplayer-icon path{fill:#eee}</style>
+ <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+ 
+ <script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
+ 
+ 
+ 
+     <meting-js
+       id="557578993"
+       server="netease"
+       type="song"
+       fixed="false"
+       mini="false"
+       autoplay="false"
+       loop="none"
+       theme="#255579"
+       volume="0.6"
+       prelosd="auto"
+       mutex="true"
+       list-folded="true">
+     </meting-js>
+ 
+</li>
+<li>使用模板<br>
+{{&lt; music id=&ldquo;557578993&rdquo; type=&ldquo;song&rdquo; server=&ldquo;netease&rdquo; &gt;}}</li>
+<li>更多<br>
+此处的id为音乐的网址id，如我上面引用的音乐，地址为<code>https://music.163.com/#/song?id=557578993</code>，server代表用的哪家的服务，netease代表网易，还可以使用有腾讯tencent，酷狗kugou，百度baidu。</li>
+</ul>
+<h3 id="38-哔站">3.8. 哔站
+</h3><ul>
+<li>创建方法<br>
+创建<code>bilibili.html</code>文件，拷贝以下内容：</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">{{ $vid := (.Get 0) }}
+</span></span><span class="line"><span class="cl">{{ $videopage := default 1 (.Get 1) }}
+</span></span><span class="line"><span class="cl">{{ $basicQuery := querify &#34;page&#34; $videopage &#34;high_quality&#34; 1 &#34;as_wide&#34; 1 }}
+</span></span><span class="line"><span class="cl">{{ $videoQuery := &#34;&#34; }}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">{{ if strings.HasPrefix (lower $vid) &#34;av&#34; }}
+</span></span><span class="line"><span class="cl">    {{ $videoQuery = querify &#34;aid&#34; (strings.TrimPrefix &#34;av&#34; (lower $vid)) }}
+</span></span><span class="line"><span class="cl">{{ else if strings.HasPrefix (lower $vid) &#34;bv&#34; }}
+</span></span><span class="line"><span class="cl">    {{ $videoQuery = querify &#34;bvid&#34; $vid }}
+</span></span><span class="line"><span class="cl">{{ else }}
+</span></span><span class="line"><span class="cl">    &lt;p&gt;Bilibili 视频av号或BV号错误！请检查视频av号或BV号是否正确&lt;/p&gt;
+</span></span><span class="line"><span class="cl">    &lt;p&gt;当前视频av或BV号：{{ $vid }}，视频分P：{{ $videopage }}&lt;/p&gt;
+</span></span><span class="line"><span class="cl">{{ end }}
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">&lt;div class=&#34;video-wrapper&#34;&gt;
+</span></span><span class="line"><span class="cl">    &lt;iframe src=&#34;https://player.bilibili.com/player.html?{{ $basicQuery | safeURL }}&amp;{{ $videoQuery | safeURL }}&#34;
+</span></span><span class="line"><span class="cl">            scrolling=&#34;no&#34;
+</span></span><span class="line"><span class="cl">            frameborder=&#34;no&#34;
+</span></span><span class="line"><span class="cl">            framespacing=&#34;0&#34;
+</span></span><span class="line"><span class="cl">            allowfullscreen=&#34;true&#34;
+</span></span><span class="line"><span class="cl">    &gt;
+</span></span><span class="line"><span class="cl">    &lt;/iframe&gt;
+</span></span><span class="line"><span class="cl">&lt;/div&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>样式<br>
+<div style="position:relative; padding-bottom:75%; width:100%; height:0">
+
+<iframe
+	src="//player.bilibili.com/player.html?bvid=BV1NF411J7JH&page=1&as_wide=1&high_quality=1"
+	scrolling="no"
+	border="0"
+	frameborder="no"
+	framespacing="0"
+	allowfullscreen="true"
+	style="position:absolute; height: 100%; width: 100%;"
+>
+</iframe>
+</div>
+</li>
+<li>使用模板<br>
+{{&lt; bilibili BV1NF411J7JH &gt;}}</li>
+</ul>
+<h3 id="39-网抑云">3.9. 网抑云
+</h3><ul>
+<li>创建方法<br>
+新建<code>netease.html</code>文件，拷贝以下内容：</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;iframe frameborder=&#34;no&#34; border=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; width=100% height=86 src=&#34;//music.163.com/outchain/player?type=2&amp;id={{ index .Params 0 }}&amp;auto={{ index .Params 1 }}&amp;height=66&#34;&gt;&lt;/iframe&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>样式<br>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=86 src="//music.163.com/outchain/player?type=2&id=557578993&auto=0&height=66"></iframe>
+</li>
+<li>使用模板<br>
+{{&lt; netease 557578993 0 &gt;}}</li>
+</ul>
+<h3 id="310-在博文之间cross-references引用">3.10 在博文之间Cross references引用
+</h3><ul>
+<li>创建方法<br>
+系统已经内置，无需另外创建</li>
+<li>样式<br>
+<a class="link" href="/hugo-dev/p/hugo-github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/#环境准备" >Hugo+Github博客部署 
+</a></li>
+<li>使用模板<br>
+[some text]({{&lt; relref &ldquo;first-post#heading&rdquo; &gt;}})，其中first-post为博文所在的文件夹名字，some text名字任意自定，heading为正文内容，几个字即可。</li>
+</ul>
+<h2 id="本文出处">本文出处
+</h2><p><a class="link" href="https://irithys.com/hugo-shortcode-list/"  target="_blank" rel="noopener"
+    >来写一些好玩的 Hugo 短代码吧 
+<span style="white-space: nowrap;"><svg width=".7em"
+    height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+    <path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+    <path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+        fill="currentColor">
+</svg></span>
+
+</a>
+<a class="link" href="https://thirdshire.com/hugo-stack-renovation/v"  target="_blank" rel="noopener"
+    >Hugo Stack主题装修笔记 
+<span style="white-space: nowrap;"><svg width=".7em"
+    height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+    <path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+    <path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+        fill="currentColor">
+</svg></span>
+
+</a></p>
+
+
+
+</section>
+
+        <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/hugo-dev/tags/%E6%B1%87%E6%80%BB/">汇总</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            最后更新于 2024-11-20
+        </span>
+    </section></footer>
+
+        
+    </article>
+</div>
+
+
+<script>
+    function verifyPassword() {
+        var inputPassword = document.getElementById('password-input').value;
+        var correctPassword = ''; 
+        if (inputPassword === correctPassword) {
+            document.getElementById('password-protected-content').style.display = 'none'; 
+            document.getElementById('article-content').style.display = 'block'; 
+        } else {
+            alert('密码错误，请重新输入！');
+        }
+    }
+</script>
+
+
+
+
+    
+
+    
+
+     
+    
+        
+    <script src="https://utteranc.es/client.js" 
+        repo="worhllo/comments-of-hugo"
+        issue-term="patname"
+        
+        crossorigin="anonymous"
+        async
+        >
+</script>
+
+<style>
+    .utterances {
+        max-width: unset;
+    }
+</style>
+
+<script>
+    let utterancesLoaded = true;
+
+    function setUtterancesTheme(theme) {
+        let utterances = document.querySelector('.utterances iframe');
+        if (utterances) {
+            utterances.contentWindow.postMessage(
+                {
+                    type: 'set-theme',
+                    theme: `github-${theme}`
+                },
+                'https://utteranc.es'
+            );
+        }
+    }
+
+    addEventListener('message', event => {
+        if (event.origin !== 'https://utteranc.es') return;
+
+        
+        utterancesLoaded = true;
+        setUtterancesTheme(document.documentElement.dataset.scheme)
+    });
+
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (!utterancesLoaded) return;
+        setUtterancesTheme(e.detail)
+    })
+</script>
+
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2024 Watch Your Back
+    </section>
+    
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+	
+	
+     <section class="running-time">
+本博客已稳定运行
+<span id="runningdays" class="running-days"></span>
+    </section>
+
+    <section class="totalcount">
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+    发表了8篇文章 · 
+    总计18.23k字
+	
+	
+<section class="voyager">
+<span id="voyager">载入旅行者一号离地球距离信息...</span>
+</section>
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<span id="busuanzi_container_site_pv">本站总访问量 <span id="busuanzi_value_site_pv"></span> 次 · </span>
+<span id="busuanzi_container_site_uv">您是本站第 <span id="busuanzi_value_site_uv"></span> 位访问者</span>
+
+    </section>
+</footer>
+
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/hugo-dev/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+
+
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+<div id="particles-js"></div>
+
+<script src=https://worhllo.github.io/hugo-dev/background/particles.min.js></script>
+<script>
+  particlesJS.load('particles-js', "https://worhllo.github.io/hugo-dev/background/particlesjs-config.json", function() {
+    console.log('particles.js loaded - callback');
+  });
+</script>
+
+<style>
+  #particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+  }
+</style>
+
+
+
+<script>
+    let s1 = '2024-11-11'; 
+    s1 = new Date(s1.replace(/-/g, "/"));
+    let s2 = new Date();
+    let timeDifference = s2.getTime() - s1.getTime();
+
+    let days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+
+    let result = days + "天" + hours + "小时" + minutes + "分钟";
+    document.getElementById('runningdays').innerHTML = result;
+</script>
+
+
+<script language="javascript"> 
+    var now = new Date();
+    function createtime(){
+        
+        now.setTime(now.getTime()+250);
+        var start = new Date("08/01/2022 00:00:00"); 
+        var dis = Math.trunc(23400000000 + ((now - start) / 1000) * 17); 
+        var unit = (dis / 149600000).toFixed(6);  
+
+        document.getElementById("voyager").innerHTML = "旅行者 1 号当前距离地球 "+ dis +" 千米，约为 "+ unit +" 个天文单位 🚀"
+    }
+    setInterval("createtime()",250); 
+</script> 
+
+
+
+
+
+
+
+		<style>
+     
+    #backtop {
+        color: #c2c0c0;
+        position: fixed;
+        right: 25px;
+        bottom: 25px;
+        width: 35px;
+        height: 35px;
+        z-index: 999998;
+
+         
+    }
+</style>
+<div id="backtop">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-circle-up" class="svg-inline--fa fa-chevron-circle-up fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+        <path fill="currentColor" d="M8 256C8 119 119 8 256 8s248 111 248 248-111 248-248 248S8 393 8 256zm231-113.9L103.5 277.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L256 226.9l101.6 101.6c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L273 142.1c-9.4-9.4-24.6-9.4-34 0z">
+        </path>
+    </svg>
+    
+</div>
+<script>
+    var timer = null;
+    backtop.onclick = function () {
+        cancelAnimationFrame(timer);
+        
+        var startTime = +new Date();
+        
+        var b = document.body.scrollTop || document.documentElement.scrollTop;
+        var d = 500;
+        var c = b;
+        timer = requestAnimationFrame(function func() {
+            var t = d - Math.max(0, startTime - (+new Date()) + d);
+            document.documentElement.scrollTop = document.body.scrollTop = t * (-c) / d + b;
+            timer = requestAnimationFrame(func);
+            if (t == d) {
+                cancelAnimationFrame(timer);
+            }
+        });
+    }
+
+</script>
+    </body>
+	
+</html>
