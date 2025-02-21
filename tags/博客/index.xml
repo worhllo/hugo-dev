@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Watch Your Back</copyright>
-        <lastBuildDate>Thu, 21 Nov 2024 16:17:22 +0000</lastBuildDate><atom:link href="https://worhllo.github.io/hugo-dev/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 21 Feb 2025 14:30:44 +0000</lastBuildDate><atom:link href="https://worhllo.github.io/hugo-dev/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>stack主题美化大杂烩</title>
         <link>https://worhllo.github.io/hugo-dev/p/stack%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%A4%A7%E6%9D%82%E7%83%A9/</link>
         <pubDate>Thu, 14 Nov 2024 22:47:32 +0800</pubDate>
@@ -25,8 +25,7 @@
 &lt;/svg&gt;&lt;/span&gt;
 
 &lt;/a&gt; 来贡献代码或深入了解项目。&lt;/p&gt;
-&lt;p&gt;原生的stack主题虽然已经挺好看的了，但是仍然还美化的空间；还有进步的可能性；还有不断完善的潜力，因此，集多篇大佬优质的博客于一篇文章中，这篇博客就此诞生！&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;原生的stack主题虽然已经挺好看的了，但是仍然还美化的空间；还有进步的可能性；还有不断完善的潜力，因此，集多篇大佬优质的博客于一篇文章中，这篇博客就此诞生！&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h2 id=&#34;文件添加随机海报&#34;&gt;文件添加随机海报
 &lt;/h2&gt;
 &lt;details&gt;
@@ -2678,8 +2677,7 @@
 &lt;/ul&gt;
 &lt;h3 id=&#34;github-action自动部署&#34;&gt;Github Action自动部署
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;​       Github Actions是Github上一个类似于持续集成的功能，它允许你在一些节点上（如提交代码，特定时间等）触发一些操作，用到博客上之后，每次只需要在cmd命令行中提交3行简单代码， 就能实现上文将&lt;code&gt;publish&lt;/code&gt;上传至github的繁琐操作，实现自动部署。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;​       Github Actions是Github上一个类似于持续集成的功能，它允许你在一些节点上（如提交代码，特定时间等）触发一些操作，用到博客上之后，每次只需要在cmd命令行中提交3行简单代码， 就能实现上文将&lt;code&gt;publish&lt;/code&gt;上传至github的繁琐操作，实现自动部署。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;在Github上面再次新建一个仓库，用于存放Hugo的主文件，名称任意设置，安全起见，建议将状态设置为&lt;code&gt;private&lt;/code&gt;，接着点击&lt;code&gt;Creat respository&lt;/code&gt;&lt;/p&gt;

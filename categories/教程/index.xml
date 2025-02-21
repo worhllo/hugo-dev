@@ -24,8 +24,7 @@
 &lt;/svg&gt;&lt;/span&gt;
 
 &lt;/a&gt; 来贡献代码或深入了解项目。&lt;/p&gt;
-&lt;p&gt;原生的stack主题虽然已经挺好看的了，但是仍然还美化的空间；还有进步的可能性；还有不断完善的潜力，因此，集多篇大佬优质的博客于一篇文章中，这篇博客就此诞生！&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;原生的stack主题虽然已经挺好看的了，但是仍然还美化的空间；还有进步的可能性；还有不断完善的潜力，因此，集多篇大佬优质的博客于一篇文章中，这篇博客就此诞生！&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h2 id=&#34;文件添加随机海报&#34;&gt;文件添加随机海报
 &lt;/h2&gt;
 &lt;details&gt;
@@ -2445,8 +2444,7 @@
 &lt;/svg&gt;&lt;/span&gt;
 
 &lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
+&lt;/ul&gt;&lt;/blockquote&gt;
 &lt;h1 id=&#34;界面一览&#34;&gt;界面一览
 &lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://imgbed.worhllo.us.kg/file/1731411605668_111.jpg&#34;
 	
@@ -2837,8 +2835,7 @@
 8.完全免费，没有任何限制&lt;br&gt;
 9.有利于电脑桌面整洁&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
+&lt;/ul&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;img src=&#34;https://imgbed.worhllo.us.kg/file/1731383831751_qwe.png&#34;
 	
 	
@@ -2880,8 +2877,7 @@
 &lt;li&gt;可以用缩写：比如说&lt;code&gt;Photoshop&lt;/code&gt;可以改为&lt;code&gt;ps&lt;/code&gt;、&lt;code&gt;MuMu模拟器&lt;/code&gt;改为&lt;code&gt;mumu&lt;/code&gt;等&lt;/li&gt;
 &lt;li&gt;可以直接根据需求：如可以把&lt;code&gt;QQ音乐&lt;/code&gt;直接命名为&lt;code&gt;听歌&lt;/code&gt;、
 &lt;code&gt;Steam&lt;/code&gt;命名为&lt;code&gt;游戏&lt;/code&gt;等&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
+&lt;/ul&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;img src=&#34;https://imgbed.worhllo.us.kg/file/1731386051197_adsfd.png&#34;
 	
 	
@@ -2910,8 +2906,7 @@
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;在实现批量搜索之前，你必须得了解搜索串是什么。比如说我用bing.com搜索一下&lt;code&gt;吾爱破解&lt;/code&gt;然后在地址栏中可以看到如下链接：&lt;code&gt;https://cn.bing.com/search?q=吾爱破解&amp;amp;cvid&lt;/code&gt;，其中的关键部分是：&lt;code&gt;https://cn.bing.com/search?q&lt;/code&gt;=
 &lt;code&gt;吾爱破解&lt;/code&gt;则是传递进这个搜索引擎的关键词，而后面的&lt;code&gt;&amp;amp;cvid&lt;/code&gt;则可有可无，
-有些时候链接后面会带上更多的参数，你可以自己一点点删掉。删掉之后回车访问一下，如果还能正常访问，说明这些就属于多余的参数，都可以删掉&lt;/p&gt;
-&lt;/blockquote&gt;
+有些时候链接后面会带上更多的参数，你可以自己一点点删掉。删掉之后回车访问一下，如果还能正常访问，说明这些就属于多余的参数，都可以删掉&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;而实现批量搜索的方法其实很简单，和就是在批量打开网站的基础上，在搜索串后
 面加上参数&lt;code&gt;%1&lt;/code&gt;比如下面就是同时在百度、必应、Yandex.上进行搜索的代码：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -3238,8 +3233,7 @@
 &lt;/ul&gt;
 &lt;h3 id=&#34;github-action自动部署&#34;&gt;Github Action自动部署
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;​       Github Actions是Github上一个类似于持续集成的功能，它允许你在一些节点上（如提交代码，特定时间等）触发一些操作，用到博客上之后，每次只需要在cmd命令行中提交3行简单代码， 就能实现上文将&lt;code&gt;publish&lt;/code&gt;上传至github的繁琐操作，实现自动部署。&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;​       Github Actions是Github上一个类似于持续集成的功能，它允许你在一些节点上（如提交代码，特定时间等）触发一些操作，用到博客上之后，每次只需要在cmd命令行中提交3行简单代码， 就能实现上文将&lt;code&gt;publish&lt;/code&gt;上传至github的繁琐操作，实现自动部署。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;在Github上面再次新建一个仓库，用于存放Hugo的主文件，名称任意设置，安全起见，建议将状态设置为&lt;code&gt;private&lt;/code&gt;，接着点击&lt;code&gt;Creat respository&lt;/code&gt;&lt;/p&gt;

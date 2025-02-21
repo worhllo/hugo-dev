@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Watch Your Back</copyright>
-        <lastBuildDate>Thu, 21 Nov 2024 16:17:22 +0000</lastBuildDate><atom:link href="https://worhllo.github.io/hugo-dev/categories/%E4%BB%A3%E7%90%86%E8%8A%82%E7%82%B9/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 21 Feb 2025 14:30:44 +0000</lastBuildDate><atom:link href="https://worhllo.github.io/hugo-dev/categories/%E4%BB%A3%E7%90%86%E8%8A%82%E7%82%B9/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>使用Cloudflare搭建自己的免费代理节点</title>
         <link>https://worhllo.github.io/hugo-dev/p/%E4%BD%BF%E7%94%A8cloudflare%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E4%BB%A3%E7%90%86%E8%8A%82%E7%82%B9/</link>
         <pubDate>Mon, 18 Nov 2024 15:26:15 +0800</pubDate>
@@ -37,8 +37,7 @@
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Cloudflare&lt;/strong&gt; 是一家全球性的云平台，提供广泛的网络服务，旨在提升各类企业的安全性和性能。具有VPN以下几大优点：加速网站速度；增强网站安全性：提高网站可用性；优化搜索引擎排名等，最重要的是，Cloudflare 提供了许多免费服务，因此，我们就能通Cloudflate搭建属于自己的免费代理节点，不用我们自己的服务器，甚至使用的可以是免费的域名，零成本完全免费。好，话不多说，正式开始.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
+&lt;/ol&gt;&lt;/blockquote&gt;
 &lt;h2 id=&#34;二具体部署方法&#34;&gt;二、具体部署方法
 &lt;/h2&gt;&lt;h4 id=&#34;1注册cloudflare账户&#34;&gt;1.注册cloudflare账户
 &lt;/h4&gt;&lt;p&gt;打开&lt;a class=&#34;link&#34; href=&#34;https://www.cloudflare.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;

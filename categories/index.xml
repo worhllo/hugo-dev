@@ -7,7 +7,15 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Watch Your Back</copyright>
-        <lastBuildDate>Thu, 21 Nov 2024 16:17:22 +0000</lastBuildDate><atom:link href="https://worhllo.github.io/hugo-dev/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 21 Feb 2025 14:30:44 +0000</lastBuildDate><atom:link href="https://worhllo.github.io/hugo-dev/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>影评</title>
+        <link>https://worhllo.github.io/hugo-dev/categories/%E5%BD%B1%E8%AF%84/</link>
+        <pubDate>Sat, 23 Nov 2024 19:59:02 +0800</pubDate>
+        
+        <guid>https://worhllo.github.io/hugo-dev/categories/%E5%BD%B1%E8%AF%84/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Hugo</title>
         <link>https://worhllo.github.io/hugo-dev/categories/hugo/</link>
         <pubDate>Wed, 20 Nov 2024 13:31:47 +0800</pubDate>

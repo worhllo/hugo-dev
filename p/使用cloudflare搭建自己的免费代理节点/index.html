@@ -6,11 +6,11 @@
 
 <link rel='canonical' href='https://worhllo.github.io/hugo-dev/p/%E4%BD%BF%E7%94%A8cloudflare%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E4%BB%A3%E7%90%86%E8%8A%82%E7%82%B9/'>
 
-<link rel="stylesheet" href="/hugo-dev/scss/style.min.e1ebb7530b3dbef34391c9b365c8fbe00efee29d0efc1e766c7244ac393f1042.css"><meta property='og:title' content="使用Cloudflare搭建自己的免费代理节点">
+<link rel="stylesheet" href="/hugo-dev/scss/style.min.58ca6425ae66ffcd6b085ff08505d7d07bd55bc08c94761a00a925c66ea53c38.css"><meta property='og:title' content="使用Cloudflare搭建自己的免费代理节点">
 <meta property='og:description' content="不用我们自己的服务器，使用的是免费域名，零成本，完全免费！">
 <meta property='og:url' content='https://worhllo.github.io/hugo-dev/p/%E4%BD%BF%E7%94%A8cloudflare%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E4%BB%A3%E7%90%86%E8%8A%82%E7%82%B9/'>
 <meta property='og:site_name' content='Watch Your Back&#39;s Blog'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='教程' /><meta property='article:published_time' content='2024-11-18T15:26:15&#43;08:00'/><meta property='article:modified_time' content='2024-11-21T16:17:22&#43;00:00'/><meta property='og:image' content='https://imgbed.worhllo.us.kg/file/1731915064298_wd.jpg' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='教程' /><meta property='article:published_time' content='2024-11-18T15:26:15&#43;08:00'/><meta property='article:modified_time' content='2025-02-21T14:30:44&#43;00:00'/><meta property='og:image' content='https://imgbed.worhllo.us.kg/file/1731915064298_wd.jpg' />
 <meta name="twitter:title" content="使用Cloudflare搭建自己的免费代理节点">
 <meta name="twitter:description" content="不用我们自己的服务器，使用的是免费域名，零成本，完全免费！"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://imgbed.worhllo.us.kg/file/1731915064298_wd.jpg' />
@@ -40,227 +40,22 @@
         }
     })();
 </script>
-<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
-    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
-        <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
-        </span>
-    </button>
+<div class="container main-container flex on-phone--column extended">
 
-    <header>
-        
-            
-            <figure class="site-avatar">
-                <a href="/hugo-dev/">
-                
-                    
-                    
-                    
-                        
-                        <img src="/hugo-dev/img/avatar_hu17068967838911624874.png" width="300"
-                            height="300" class="site-logo" loading="lazy" alt="Avatar">
-                    
-                
-                </a>
-                
-                    <span class="emoji">🍥</span>
-                
-            </figure>
-            
-        
-        
-        <div class="site-meta">
-            <h1 class="site-name"><a href="/hugo-dev">Watch Your Back&#39;s Blog</a></h1>
-            <h2 class="site-description">Email：3292722614@qq.com</h2>
+
+        <div id="article-toolbar" style="position: sticky;top: 5px;z-index: 1000;">
+            <a href="/hugo-dev" class="back-home">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="15 6 9 12 15 18" />
+</svg>
+
+
+
+                <span>返回</span>
+            </a>
         </div>
-    </header><ol class="menu-social">
-            
-                <li>
-                    <a 
-                        href='https://github.com/CaiJimmy/hugo-theme-stack'
-                        target="_blank"
-                        title="GitHub"
-                        rel="me"
-                    >
-                        
-                        
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
-</svg>
-
-
-
-                        
-                    </a>
-                </li>
-            
-                <li>
-                    <a 
-                        href='https://twitter.com'
-                        target="_blank"
-                        title="Twitter"
-                        rel="me"
-                    >
-                        
-                        
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
-</svg>
-
-
-
-                        
-                    </a>
-                </li>
-            
-        </ol><ol class="menu" id="main-menu">
-        
-        
-        
-        <li >
-            <a href='/hugo-dev/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <polyline points="5 12 3 12 12 3 21 12 19 12" />
-  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
-  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
-</svg>
-
-
-
-                
-                <span>主页</span>
-            </a>
-        </li>
-        
-        
-        <li >
-            <a href='/hugo-dev/%E5%85%B3%E4%BA%8E/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="7" r="4" />
-  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
-</svg>
-
-
-
-                
-                <span>关于</span>
-            </a>
-        </li>
-        
-        
-        <li >
-            <a href='/hugo-dev/archives/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <rect x="3" y="4" width="18" height="4" rx="2" />
-  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
-  <line x1="10" y1="12" x2="14" y2="12" />
-</svg>
-
-
-
-                
-                <span>归档</span>
-            </a>
-        </li>
-        
-        
-        <li >
-            <a href='/hugo-dev/search/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="10" cy="10" r="7" />
-  <line x1="21" y1="21" x2="15" y2="15" />
-</svg>
-
-
-
-                
-                <span>搜索</span>
-            </a>
-        </li>
-        
-        
-        <li >
-            <a href='/hugo-dev/%E9%93%BE%E6%8E%A5/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
-  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
-</svg>
-
-
-
-                
-                <span>链接</span>
-            </a>
-        </li>
-        
-        
-        <li >
-            <a href='/hugo-dev/musings/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-infinity" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M9.828 9.172a4 4 0 1 0 0 5.656 a10 10 0 0 0 2.172 -2.828a10 10 0 0 1 2.172 -2.828 a4 4 0 1 1 0 5.656a10 10 0 0 1 -2.172 -2.828a10 10 0 0 0 -2.172 -2.828" />
-</svg>
-
-
-
-                
-                <span>随笔</span>
-            </a>
-        </li>
-        
-        <li class="menu-bottom-section">
-            <ol class="menu">
-
-                
-                    <li id="dark-mode-toggle">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="8" cy="12" r="2" />
-  <rect x="2" y="6" width="20" height="12" rx="6" />
-</svg>
-
-
-
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="16" cy="12" r="2" />
-  <rect x="2" y="6" width="20" height="12" rx="6" />
-</svg>
-
-
-
-                        <span>暗色模式</span>
-                    </li>
-                
-            </ol>
-        </li>
-    </ol>
-</aside>
+    
 
     <aside class="sidebar right-sidebar sticky">
         
@@ -368,7 +163,7 @@
 
 
                 <time>
-                    2024-11-21
+                    2025-02-21
                 </time>
             </div>
             <div>
@@ -409,22 +204,6 @@
 </div>
 
 </header>
-		<nav class="breadcrumb" aria-label="breadcrumb">
-  <ol class="breadcrumb-list">
-      <li class="breadcrumb-item">
-          <a href="/hugo-dev/">主页</a>
-      </li>
-      <li class="breadcrumb-separator">»</li>
-      <li class="breadcrumb-item">
-          <a href="/hugo-dev/post/">文章列表</a>
-      </li>
-      <li class="breadcrumb-separator">»</li>
-      <li class="breadcrumb-item active">
-          <a href="/hugo-dev/p/%E4%BD%BF%E7%94%A8cloudflare%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%85%8D%E8%B4%B9%E4%BB%A3%E7%90%86%E8%8A%82%E7%82%B9/" aria-current="location">使用Cloudflare搭建自己的免费代理节点</a>
-      </li>
-  </ol>
-</nav>
-
         <section class="article-content">
     
     
@@ -453,8 +232,7 @@
 <li>
 <p><strong>Cloudflare</strong> 是一家全球性的云平台，提供广泛的网络服务，旨在提升各类企业的安全性和性能。具有VPN以下几大优点：加速网站速度；增强网站安全性：提高网站可用性；优化搜索引擎排名等，最重要的是，Cloudflare 提供了许多免费服务，因此，我们就能通Cloudflate搭建属于自己的免费代理节点，不用我们自己的服务器，甚至使用的可以是免费的域名，零成本完全免费。好，话不多说，正式开始.</p>
 </li>
-</ol>
-</blockquote>
+</ol></blockquote>
 <h2 id="二具体部署方法">二、具体部署方法
 </h2><h4 id="1注册cloudflare账户">1.注册cloudflare账户
 </h4><p>打开<a class="link" href="https://www.cloudflare.com/"  target="_blank" rel="noopener"
@@ -764,7 +542,7 @@
 
 
         <span>
-            最后更新于 2024-11-21
+            最后更新于 2025-02-21
         </span>
     </section></footer>
 
@@ -848,7 +626,9 @@
     <section class="copyright">
         &copy; 
         
-        2024 Watch Your Back
+            2024 - 
+        
+        2025 Watch Your Back
     </section>
     
     <section class="powerby">
@@ -891,8 +671,10 @@
     
         
     
-    发表了8篇文章 · 
-    总计21.03k字
+        
+    
+    发表了9篇文章 · 
+    总计24.07k字
 	
 	
 <section class="voyager">

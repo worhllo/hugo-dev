@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Watch Your Back</copyright>
-        <lastBuildDate>Thu, 21 Nov 2024 16:17:22 +0000</lastBuildDate><atom:link href="https://worhllo.github.io/hugo-dev/categories/hugo/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 21 Feb 2025 14:30:44 +0000</lastBuildDate><atom:link href="https://worhllo.github.io/hugo-dev/categories/hugo/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Shortcode汇总</title>
         <link>https://worhllo.github.io/hugo-dev/p/shortcode%E6%B1%87%E6%80%BB/</link>
         <pubDate>Wed, 20 Nov 2024 13:31:47 +0800</pubDate>
@@ -799,7 +799,7 @@
 &lt;li&gt;创建方法&lt;br&gt;
 系统已经内置，无需另外创建&lt;/li&gt;
 &lt;li&gt;样式&lt;br&gt;
-&lt;a class=&#34;link&#34; href=&#34;https://worhllo.github.io/hugo-dev/hugo-dev/p/hugo-github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/#环境准备&#34; &gt;Hugo+Github博客部署 
+&lt;a class=&#34;link&#34; href=&#34;https://worhllo.github.io/hugo-dev/p/hugo-github%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/#环境准备&#34; &gt;Hugo+Github博客部署 
 &lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;使用模板&lt;br&gt;
 [some text]({{&amp;lt; relref &amp;ldquo;first-post#heading&amp;rdquo; &amp;gt;}})，其中first-post为博文所在的文件夹名字，some text名字任意自定，heading为正文内容，几个字即可。&lt;/li&gt;

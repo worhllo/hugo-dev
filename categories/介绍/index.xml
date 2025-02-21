@@ -99,13 +99,9 @@
 &lt;p&gt;第二层
 这样跳不下去&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;还可更深&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;还可更深&lt;/p&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;
 &lt;blockquote&gt;
-&lt;p&gt;这样就跳出去了&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;这样就跳出去了&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h2 id=&#34;八行内代码&#34;&gt;八、行内代码
 &lt;/h2&gt;&lt;p&gt;其实上边已经用过很多次，即使用 ` 表示&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;这是行内代码 中间可以换行&lt;/code&gt;&lt;/p&gt;
@@ -169,10 +165,7 @@ B1&amp;ndash;&amp;gt;C1(容积率)
 B1&amp;ndash;&amp;gt;C2(建筑系数)
 B1&amp;ndash;&amp;gt;C3(亩均固定资本投入)
 B2&amp;ndash;&amp;gt;D1(亩均工业产值)
-B2&amp;ndash;&amp;gt;D2(亩均税收)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
+B2&amp;ndash;&amp;gt;D2(亩均税收)&lt;/p&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;
 &lt;h1 id=&#34;高级语法&#34;&gt;高级语法
 &lt;/h1&gt;&lt;h2 id=&#34;数学公式&#34;&gt;数学公式
 &lt;/h2&gt;&lt;p&gt;&lt;code&gt;$\ce{Hg^2+ -&amp;gt;[I-] HgI2 -&amp;gt;[I-] [Hg^{II}I4]^2-}$&lt;/code&gt;&lt;/p&gt;
@@ -218,8 +211,7 @@ sl （斜体）
 sf （等线体）
 sc （小体大写字母）
 tt （打字机字体）
-mit （数学斜体）&lt;/p&gt;
-&lt;/blockquote&gt;
+mit （数学斜体）&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h2 id=&#34;转义&#34;&gt;转义
 &lt;/h2&gt;&lt;p&gt;在 Markdown 编辑器里面使用了很多特殊符号来表示特定的意义，该特殊符号将不再显示，这个时候就需要转义字符——反斜杠，如下：&lt;/p&gt;
 &lt;p&gt;**转义特殊符号正常显示**&lt;/p&gt;
